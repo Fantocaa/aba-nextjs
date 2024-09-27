@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-// import Link from "next/link";
 import { Link } from "@/i18n/routing";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
@@ -20,11 +19,13 @@ import {
   NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu";
+import { useLocale } from "next-intl";
+import LocalSwitcher from "./local-switcher";
 
 const NavLinks = [
   { id: 1, name: "Home", path: "/" },
   { id: 2, name: "About", path: "/about" },
-  // { id: 3, name: "Services", path: "/services" },
+  { id: 3, name: "Services", path: "/services" },
 ];
 
 const Navbar = () => {
@@ -93,8 +94,19 @@ const Navbar = () => {
     setShowDropdown(!showDropdown);
   };
 
+  const handleClick = () => {
+    console.log("Link clicked:"); // Ganti ini dengan logika pelacakan analytics
+    // Misalnya menggunakan Google Analytics atau layanan lain
+    // gtag('event', 'click', { 'event_category': 'Navigation', 'event_label': link.name });
+  };
+
+  const locale = useLocale();
+
   const pathname = usePathname();
-  const isActive = (path: string) => path === pathname;
+  const isActive = (path: string) => {
+    const localizedPath = `/${locale}${path === "/" ? "" : path}`;
+    return pathname === localizedPath;
+  };
 
   useEffect(() => {
     if (pathname !== prevPathname) {
@@ -102,7 +114,6 @@ const Navbar = () => {
       if (isOpen) {
         setIsOpen(false);
       }
-      // Perbarui prevPathname untuk memantau perubahan berikutnya
       setPrevPathname(pathname);
     }
   }, [pathname, prevPathname, isOpen]);
@@ -129,10 +140,10 @@ const Navbar = () => {
                     <div>
                       <span className="sr-only">Home</span>
                       <Image
-                        src="/images/logo/LOGO PT. BERLIMPAH ANUGERAH SEJATI 2.png"
+                        src="/images/logo/Group 5.png"
                         alt="logo"
-                        width={40}
-                        height={40}
+                        width={48}
+                        height={48}
                         className="w-full h-full"
                       />
                     </div>
@@ -146,7 +157,7 @@ const Navbar = () => {
                             : "white"
                         }`}
                       >
-                        PT. BERLIMPAH ANUGERAH SEJATI
+                        PT. ARMADA BERKAT ANUGERAH
                       </h1>
                     </div>
                   </>
@@ -192,7 +203,7 @@ const Navbar = () => {
                           <NavigationMenuLink
                             className={`${navigationMenuTriggerStyle()} ${
                               isActive(link.path)
-                                ? "active bg-redbas-500 hover:bg-redbas-600 hover:text-white font-semibold text-white"
+                                ? "active bg-yellowaba-500 hover:bg-yellowaba-600 font-semibold text-darkaba"
                                 : `font-medium bg-transparent ${
                                     isScrolled
                                       ? "text-black transition-colors duration-500"
@@ -205,6 +216,7 @@ const Navbar = () => {
                         </Link>
                       </NavigationMenuItem>
                     ))}
+
                     <NavigationMenuItem>
                       <NavigationMenuLink
                         href="https://karier.tako.co.id/"
@@ -220,13 +232,15 @@ const Navbar = () => {
                     </NavigationMenuItem>
                   </NavigationMenuList>
                 </NavigationMenu>
-
+              </div>
+              <div className="flex items-center gap-2">
+                <LocalSwitcher />
                 <div className="md:flex items-center gap-4 hidden">
                   <div className="sm:flex sm:gap-4">
                     <Link href="/contact">
                       <Button
                         variant="secondary"
-                        className="bg-redbas-500 hover:bg-redbas-600 text-white rounded-full"
+                        className="bg-yellowaba-500 hover:bg-yellowaba-600 text-darkaba rounded-full"
                       >
                         <div className="flex gap-2 items-center">
                           <LucideMail />
@@ -331,13 +345,13 @@ const Navbar = () => {
       <div className="fixed z-50 bottom-10 right-4 md:right-10 2xl:right-24">
         <div className="relative">
           <button
-            className="rounded-full p-6 bg-green-500 shadow-xl hover:bg-green-300"
+            className="rounded-full p-5 bg-green-500 shadow-xl hover:bg-green-400"
             onClick={toggleDropdown}
           >
             <Phone size={32} />
           </button>
           {showDropdown && (
-            <div className="absolute bottom-24 right-0 py-2 w-48 bg-white rounded-lg shadow-xl">
+            <div className="absolute bottom-20 right-0 py-2 w-48 bg-white rounded-lg shadow-xl">
               <div className="py-1">
                 <Link href="https://wa.link/j9utdx" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">

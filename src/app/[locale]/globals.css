@@ -67,3 +67,19 @@
     @apply bg-background text-foreground;
   }
 }
+
+.font-syne {
+  font-family: "Syne", sans-serif;
+}
+
+.font-outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+.ReactFlagsSelect-module_selectBtn__19wW7 {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 9999px;
+  background-color: rgb(255 255 255);
+}

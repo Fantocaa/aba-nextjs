@@ -5,7 +5,7 @@ import CTA from "@/components/home/CTA";
 import Footer from "@/components/navigation/Footer";
 
 export const metadata: Metadata = {
-  title: "Home | PT. BERLIMPAH ANUGERAH SEJATI",
+  title: "Home | PT. ARMADA BERKAT ANUGERAH",
   description:
     "Kami membawa produk Anda ke seluruh penjuru Indonesia dengan layanan distribusi yang handal dan efisien.",
 };

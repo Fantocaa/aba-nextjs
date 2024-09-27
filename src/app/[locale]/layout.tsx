@@ -1,13 +1,14 @@
-import { Montserrat } from "next/font/google";
+import { Montserrat, Syne, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navigation/Navbar";
 import Footer from "@/components/navigation/Footer";
 import CTA from "@/components/home/CTA";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
-import { Link } from "@/i18n/routing";
 
-const montserrat = Montserrat({ subsets: ["latin"] });
+// const montserrat = Montserrat({ subsets: ["latin"] });
+const syne = Syne({ subsets: ["latin"] });
+const outfit = Outfit({ subsets: ["latin"] });
 
 export default async function LocaleLayout({
   children,
@@ -19,7 +20,11 @@ export default async function LocaleLayout({
   const messages = await getMessages();
   return (
     <html lang={locale}>
-      <body className={montserrat.className}>
+      <body
+        // ${montserrat.className}
+        className={`
+          ${syne.className} ${outfit.className}`}
+      >
         <Navbar />
         <NextIntlClientProvider messages={messages}>
           {children}
