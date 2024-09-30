@@ -30,7 +30,7 @@ export default async function LocaleLayout({
           {children}
         </NextIntlClientProvider>
         {/* <CTA /> */}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

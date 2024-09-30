@@ -1,16 +1,19 @@
 import Image from "next/image";
 import React, { forwardRef } from "react";
+import Progres from "../home/aboutshort/progress";
 
 // eslint-disable-next-line react/display-name
 const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
   return (
     <>
       <section className="container py-16" ref={ref}>
-        <div className="grid md:grid-cols-2 gap-8 items-end">
+        <div className="grid md:grid-cols-2 gap-4 ">
           <>
             <div>
-              <h1 className="font-semibold text-4xl pb-8">Our Story</h1>
-              <p className="leading-loose">
+              <h1 className="font-semibold text-6xl pb-4 font-syne leading-tight">
+                Global Shipping  Solution Since 2014
+              </h1>
+              <p className="leading-relaxed">
                 PT. BERLIMPAH ANUGERAH SEJATI merupakan perusahaan distribusi
                 yang saat ini berdomisili di Pulau Bali. Dibangun pada masa
                 pandemic yaitu Januari 2021 dimana principal pabrik berusaha
@@ -18,57 +21,49 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
                 secara keseluruhan. Jalur distribusi di Pulau Bali secara global
                 berdampak besar sekitar 90% usaha harus terhenti akibat
                 pandemic.
-                <br />
-                <br />
-                Di saat perusahaan lain mundur karena pesimis, PT. BERLIMPAH
-                ANUGERAH SEJATI melihat peluang dan yakin PASTI BISA untuk
-                memenuhi setiap target yang diberikan principal. Hal ini yang
-                membuat principal memberikan kesempatan kepada kami.
               </p>
             </div>
           </>
           <>
-            <div>
-              <Image
-                src="/images/woman-wearing-safety-cap-work (1).jpg"
-                alt="image-about"
-                width={1080}
-                height={1080}
-                className="rounded-2xl"
-              />
-            </div>
-          </>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8 items-center mt-6 md:mt-16">
-          <>
-            <div className="md:order-last">
-              <p className="leading-loose">
-                Terbukti dengan kerja keras & inovasi yang dilakukan ternyata
-                melebihi dari target yang diberikan oleh principal. Bahkan
-                setelah 3 tahun, PT. BAS terus menunjukkan peningkatan yang
-                signifikan melebihi dari target principal. Hal ini yang menjadi
-                nilai tambah perusahaan kami sehingga bagi PT. BERLIMPAH
-                ANUGERAH SEJATI ini hanya barulah permulaan.
-                <br />
-                <br />
-                Tujuan kami kedepannya kami akan terus melebarkan zona
-                distribusi kami bukan hanya di pulai bali, tapi sampai dengan
-                area Indonesia Timur. Kami akan buktikan bahwa kami akan membawa
-                perusahaan anda menjadi market leader di bidangnya ketika anda
-                memilih PT. BERLIMPAH ANUGERAH SEJATI menjadi mitra distribusi
-                anda.
-              </p>
+            <div className="bg-blueaba-500 p-4 text-white h-fit gridend">
+              <Progres />
             </div>
           </>
           <>
-            <div>
-              <Image
-                src="/images/man-safety-equipment-working.jpg"
-                alt="image-about"
-                width={1080}
-                height={1080}
-                className="rounded-2xl"
-              />
+            <Image
+              src="/images/woman-safety-equipment-work.jpg"
+              alt="img"
+              width={1080}
+              height={1080}
+              className="h-1/2 object-cover"
+            />
+          </>
+          <>
+            <div className="flex flex-col gap-4">
+              <div className="bg-yellowaba-500 p-4 py-8 text-black h-fit">
+                <h1 className="text-4xl font-bold font-syne">Vision</h1>
+                <p className="text-xl mt-4 font-light">
+                  Menjadi perusahaan logistic terbaik yang terkemuka, terpercaya
+                  dan handal dengan mengutamakan kepercayaan dan kepuasan
+                  pelanggan
+                </p>
+              </div>
+
+              <div className="bg-bluelightaba-500 p-4 py-8 text-white h-fit">
+                <h1 className="text-4xl font-bold font-syne">Mission</h1>
+                <ul className="list-disc pl-4 text-xl mt-4">
+                  <li>
+                    Memberikan pelayanan yang kompetitif, berkualitas, dan aman.
+                  </li>
+                  <li className="pt-4">
+                    Menjadi solusi pelanggan dalam keperluan pengiriman barang.
+                  </li>
+                  <li className="py-4">
+                    Melakukan perkembangan manajemen dan teknologi sehingga
+                    mampu memberikan kepuasan dan kepercayaan pelanggan.
+                  </li>
+                </ul>
+              </div>
             </div>
           </>
         </div>

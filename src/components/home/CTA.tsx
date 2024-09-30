@@ -80,7 +80,6 @@ export default function CTA() {
                       width={2560}
                       height={2560}
                     />
-                    {/* <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 rounded-xl"></div> */}
                   </div>
                 </CarouselItem>
               ))}

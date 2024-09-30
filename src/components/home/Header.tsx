@@ -41,7 +41,6 @@ const Header = () => {
         </div>
 
         <div className="relative container lg:h-screen lg:grid grid-cols-2 lg:items-center py-44 md:py-0">
-          {/* <div className="grid grid-cols-2"> */}
           <div className="text-left ltr:sm:text-left rtl:sm:text-right">
             <p className="mt-14 2xl:mt-0 max-w-lg sm:text-xl/relaxed text-white">
               PT. ARMADA BERKAT ANUGERAH
@@ -75,7 +74,6 @@ const Header = () => {
               className="lg:h-[36rem] 2xl:h-[52rem] object-contain lg:translate-y-[4.2rem] 2xl:translate-y-[7.7rem]"
             />
           </div>
-          {/* </div> */}
         </div>
       </section>
       <section>

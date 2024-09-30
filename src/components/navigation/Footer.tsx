@@ -10,53 +10,51 @@ export default function Footer() {
   const NavLinks = [
     { id: 1, name: "Home", path: "/" },
     { id: 2, name: "About", path: "/about" },
-    // { id: 3, name: "Careers", path: "/services" },
+    { id: 3, name: "Services", path: "/services" },
     // { id: 4, name: "Contact", path: "/contact" },
   ];
 
   return (
     <>
-      <footer className="bg-white">
-        <div className="container pb-6 pt-16 lg:pt-24">
+      <footer className="bg-blueaba-500 text-white">
+        <div className="container pb-6 pt-16">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 items-center">
             <div>
               <div className="flex justify-center sm:justify-start">
                 <Link href="/" className="flex items-center gap-4 ">
                   <Image
-                    src="/images/logo/LOGO PT. BERLIMPAH ANUGERAH SEJATI 2.png"
+                    src="/images/logo/Group 5.png"
                     alt="logo"
                     width={64}
                     height={64}
                   />
                   <h1 className="font-bold text-darkpint">
-                    PT. BERLIMPAH ANUGERAH SEJATI
+                    PT. ARMADA BERKAT ANUGERAH
                   </h1>
                 </Link>
               </div>
 
-              <p className="my-6 max-w-md leading-relaxed text-gray-500 sm:max-w-xl sm:text-left">
+              <p className="my-6 max-w-lg leading-relaxed sm:max-w-xl sm:text-left">
                 Kami membawa produk Anda ke seluruh penjuru Indonesia dengan
                 layanan distribusi yang handal dan efisien.
               </p>
 
-              <Button className="w-full rounded-full bg-redbas-600 px-8 py-3 text-sm font-medium text-white shadow hover:bg-redbas-700 focus:outline-none focus:ring active:bg-redbas-500 sm:w-auto">
+              <button className="font-semibold rounded-full bg-yellowaba-500 px-8 py-3 shadow hover:bg-yellowaba-600 focus:outline-none focus:ring active:bg-yellowaba-500 text-black">
                 Contact Us
-              </Button>
+              </button>
             </div>
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-5 lg:col-span-2">
               <div></div>
               <div></div>
               <div className="text-center sm:text-left">
-                <p className="text-lg font-medium text-gray-900">
-                  Helpful Links
-                </p>
+                <p className="text-lg font-medium">Helpful Links</p>
 
                 <ul className="mt-8 space-y-4 text-sm flex md:block gap-4">
                   {NavLinks.map((link) => (
                     <li key={link.id} className="mt-4 mb-0 mx-auto">
                       <Link
-                        className="text-gray-700 transition hover:text-gray-700/75 mt-0"
+                        className="text-white transition hover:text-white/75 mt-0"
                         href={link.path}
                       >
                         {link.name}
@@ -67,31 +65,23 @@ export default function Footer() {
                     <Link
                       href="https://karier.tako.co.id/"
                       target="__blank"
-                      className="text-gray-700 transition hover:text-gray-700/75 mt-0"
+                      className="text-white transition hover:text-white/75 mt-0"
                     >
                       Careers
-                    </Link>
-                  </li>
-                  <li className="mt-4 mb-0 mx-auto">
-                    <Link
-                      href="/contact"
-                      className="text-gray-700 transition hover:text-gray-700/75 mt-0"
-                    >
-                      Contact Us
                     </Link>
                   </li>
                 </ul>
               </div>
 
               <div className="text-center sm:text-left mt-8 md:mt-0 col-span-2">
-                <p className="text-lg font-medium text-gray-900">Contact Us</p>
+                <p className="text-lg font-medium text-white">Contact Us</p>
 
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
                     <div className="flex items-center justify-center gap-4 ltr:sm:justify-start rtl:sm:justify-end">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="size-5 shrink-0 text-gray-900"
+                        className="size-5 shrink-0 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -104,9 +94,7 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
-                        <span className="flex text-gray-700">
-                          +0361-412-005
-                        </span>
+                        <span className="flex text-white">+0361-412-005</span>
                         {/* <span className="flex text-gray-700">031-3537 981</span> */}
                       </div>
                     </div>
@@ -115,7 +103,7 @@ export default function Footer() {
                     <div className="flex items-center justify-center gap-4 ltr:sm:justify-start rtl:sm:justify-end">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="size-5 shrink-0 text-gray-900"
+                        className="size-5 shrink-0 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -128,7 +116,7 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
-                        <span className="flex text-gray-700">
+                        <span className="flex text-white">
                           berlimpahanugerah@gmail.com
                         </span>
                       </div>
@@ -139,7 +127,7 @@ export default function Footer() {
                     <div className="flex items-start justify-center gap-4 ltr:sm:justify-start rtl:sm:justify-end">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="size-5 shrink-0 text-gray-900"
+                        className="size-5 shrink-0 text-white"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -157,7 +145,7 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
-                        <span className="flex not-italic text-gray-700 text-left">
+                        <span className="flex not-italic text-white text-left">
                           Jl. Cargo Permai No.9X, Ubung, Kec. Denpasar Utara,
                           Kota Denpasar, Bali 80111
                         </span>
@@ -171,8 +159,8 @@ export default function Footer() {
 
           <div className="mt-12 border-t border-gray-100 pt-6">
             <div className="text-center sm:flex sm:justify-center sm:text-center">
-              <p className="text-xs text-gray-500 text-center">
-                &copy; {currentYear}. PT. BERLIMPAH ANUGERAH SEJATI. All rights
+              <p className="text-xs text-white text-center">
+                &copy; {currentYear}. PT. ARMADA BERKAT ANUGERAH. All rights
                 reserved.
               </p>
             </div>
