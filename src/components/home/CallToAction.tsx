@@ -13,7 +13,7 @@ export default function CallToAction() {
             alt="img"
             width={1280}
             height={1280}
-            className="w-full h-40 object-cover opacity-30"
+            className="w-full h-40 object-cover opacity-10"
           />
 
           {/* Content on top of the background */}

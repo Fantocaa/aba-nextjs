@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import React, { useRef } from "react";
 import Image from "next/image";
@@ -14,11 +14,11 @@ import {
 import Autoplay from "embla-carousel-autoplay";
 
 const Header = () => {
-  const ref = useRef<null | HTMLDivElement>(null);
+  // const ref = useRef<null | HTMLDivElement>(null);
 
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: "smooth" });
-  };
+  // const handleClick = () => {
+  //   ref.current?.scrollIntoView({ behavior: "smooth" });
+  // };
 
   return (
     <>
@@ -64,7 +64,10 @@ const Header = () => {
         </div>
       </section>
       <section>
-        <AboutFull ref={ref} />
+        <AboutFull
+
+        // ref={ref}
+        />
       </section>
     </>
   );
