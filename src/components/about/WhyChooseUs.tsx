@@ -59,13 +59,21 @@ export default function WhyChooseUs() {
                   terhadap setiap pelanggan Kami
                 </p>
               </div>
-              <div>
-                <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
-                  Ontime
-                </h1>
+              <div className="my-8">
+                <h1 className="text-4xl text-yellowaba-500 mb-2 ">Ontime</h1>
                 <p className="text-xl">
                   Dalam memberikan layanan yang berkualitas, Kami selalu
                   memastikan ketepatan dalam estimasi waktu yang Kami janjikan
+                </p>
+              </div>
+              <div>
+                <h1 className="text-4xl text-yellowaba-500 mb-2">
+                  Reliability
+                </h1>
+                <p className="text-xl">
+                  Memberikan pelatihan terhadap SDM untuk meningkatkan kualitas
+                  pelayanan dan kehandalan dalam melakukan tanggung jawab
+                  pekerjaan yang sudah dipercayakan oleh pelanggan
                 </p>
               </div>
             </div>
@@ -79,16 +87,6 @@ export default function WhyChooseUs() {
           <div className="grid grid-cols-2 mt-8 items-center">
             <div className="order-last">
               <div>
-                <h1 className="text-4xl text-yellowaba-500 mb-2">
-                  Reliability
-                </h1>
-                <p className="text-xl">
-                  Memberikan pelatihan terhadap SDM untuk meningkatkan kualitas
-                  pelayanan dan kehandalan dalam melakukan tanggung jawab
-                  pekerjaan yang sudah dipercayakan oleh pelanggan
-                </p>
-              </div>
-              <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
                   Nicely
                 </h1>
@@ -96,6 +94,35 @@ export default function WhyChooseUs() {
                   Memastikan setiap pelanggan mendapatkan informasi yang
                   komunikatif dengan layanan yang ramah, sehingga menciptakan
                   hubungan yang baik dengan semua pihak
+                </p>
+              </div>
+              <div>
+                <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
+                  Eficienly
+                </h1>
+                <p className="text-xl">
+                  Bersama dengan tim melakukan tugas dengan cepat, tepat, dan
+                  cermat sehingga memberikan hasil yang memuaskan bagi pelanggan
+                </p>
+              </div>
+              <div>
+                <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
+                  Relation
+                </h1>
+                <p className="text-xl">
+                  Selalu siap untuk menjadi solusi pelanggan serta memberikan
+                  pelayanan yang komunikatif dan tepat dengan yang menjadi kunci
+                  dalam hubungan kerjasama Kami dengan pelanggan
+                </p>
+              </div>
+              <div>
+                <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
+                  Safety
+                </h1>
+                <p className="text-xl">
+                  Dalam menjaga kepercayaan yang diberikan customer kepada Kami
+                  dan Kami pastikan setiap pengiriman Anda akan aman dan seusai
+                  dengan kebutuhan pelanggan.
                 </p>
               </div>
             </div>

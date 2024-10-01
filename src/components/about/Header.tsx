@@ -3,15 +3,15 @@
 import React, { useRef } from "react";
 import Image from "next/image";
 import AboutFull from "./AboutFull";
-import Link from "next/link";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Autoplay from "embla-carousel-autoplay";
+// import Link from "next/link";
+// import {
+//   Carousel,
+//   CarouselContent,
+//   CarouselItem,
+//   CarouselNext,
+//   CarouselPrevious,
+// } from "@/components/ui/carousel";
+// import Autoplay from "embla-carousel-autoplay";
 
 const Header = () => {
   // const ref = useRef<null | HTMLDivElement>(null);
