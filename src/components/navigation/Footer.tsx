@@ -94,7 +94,9 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
-                        <span className="flex text-white">+0361-412-005</span>
+                        <span className="flex text-white">
+                          +62 812 8057 8717
+                        </span>
                         {/* <span className="flex text-gray-700">031-3537 981</span> */}
                       </div>
                     </div>
@@ -116,9 +118,7 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
-                        <span className="flex text-white">
-                          berlimpahanugerah@gmail.com
-                        </span>
+                        <span className="flex text-white">aba@gmail.com</span>
                       </div>
                     </div>
                   </li>
@@ -146,8 +146,8 @@ export default function Footer() {
                       </svg>
                       <div className="flex-1">
                         <span className="flex not-italic text-white text-left">
-                          Jl. Cargo Permai No.9X, Ubung, Kec. Denpasar Utara,
-                          Kota Denpasar, Bali 80111
+                          Jl. Perak Timur No.110 Kec. Pabean Cantikan Surabaya,
+                          Jawa Timur
                         </span>
                       </div>
                     </div>

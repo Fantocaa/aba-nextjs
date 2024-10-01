@@ -7,7 +7,7 @@ import { Link } from "@/i18n/routing";
 import { motion, useAnimation, AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { LucideMail, Phone } from "lucide-react";
+import { LucideMail, Phone, X } from "lucide-react";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -344,33 +344,66 @@ const Navbar = () => {
       </AnimatePresence>
       <div className="fixed z-50 bottom-10 right-4 md:right-10 2xl:right-24">
         <div className="relative">
-          <button
-            className="rounded-full p-5 bg-green-500 shadow-xl hover:bg-green-400"
-            onClick={toggleDropdown}
-          >
-            <Phone size={32} />
-          </button>
+          {!showDropdown ? (
+            <button
+              className="rounded-full p-5 bg-green-500 shadow-xl hover:bg-green-400 transition-all duration-200"
+              onClick={toggleDropdown}
+            >
+              <Phone size={32} />
+            </button>
+          ) : (
+            <button
+              className="rounded-full p-5 bg-red-500 shadow-xl hover:bg-red-600 transition-all duration-200"
+              onClick={toggleDropdown}
+            >
+              <X size={32} />
+            </button>
+          )}
           {showDropdown && (
             <div className="absolute bottom-20 right-0 py-2 w-48 bg-white rounded-lg shadow-xl">
               <div className="py-1">
-                <Link href="https://wa.link/j9utdx" target="__blank">
+                <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
                     {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
-                      Branch Bali
+                      Branch Surabaya
                     </button>
                   </div>
                 </Link>
-                <Link
-                  href="https://api.whatsapp.com/send?phone=6282322219073"
-                  target="__blank"
-                >
+                <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
                     {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
-                      Branch Mataram
+                      Branch Makassar
+                    </button>
+                  </div>
+                </Link>
+                <Link href="#" target="__blank">
+                  <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
+                    {/* <LucideGlobe /> */}
+                    <Phone />
+                    <button className="text-sm text-gray-800 text-left">
+                      Branch Gorontalo
+                    </button>
+                  </div>
+                </Link>
+                <Link href="#" target="__blank">
+                  <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
+                    {/* <LucideGlobe /> */}
+                    <Phone />
+                    <button className="text-sm text-gray-800 text-left">
+                      Branch Manado
+                    </button>
+                  </div>
+                </Link>
+                <Link href="#" target="__blank">
+                  <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
+                    {/* <LucideGlobe /> */}
+                    <Phone />
+                    <button className="text-sm text-gray-800 text-left">
+                      Branch Semarang
                     </button>
                   </div>
                 </Link>

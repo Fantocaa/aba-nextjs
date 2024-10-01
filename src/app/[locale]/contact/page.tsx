@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "@/components/ui/button";
 import ContactApi from "@/components/contact/Contact";
 import Header from "@/components/contact/Header";
@@ -15,7 +16,6 @@ export default function Contact() {
   return (
     <>
       <Header />
-      <Footer />
     </>
   );
 }
