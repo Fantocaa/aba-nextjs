@@ -12,8 +12,12 @@
   },
   "Header-Home": {
     "title": "Jangkau Penjuru Dunia Bersama Kami",
-    "subtitle": "Menjadi perusahaan Logistik Export dan Import terbaik yang terkemuka, terpercaya, dan handal dengan mengutamakan kepercayaan dan kepuasan Customer",
+    "subtitle": "Selalu siap memenuhi kebutuhan logistik Anda dengan aman, cepat, dan penuh kepastian di mana pun tujuannya.",
     "button": "Lihat Layanan Kami"
+  },
+  "About-Short": {
+    "head-1": "",
+    "desc": " adalah perusahaan logistik terkemuka yang berkomitmen untuk memberikan solusi pengiriman yang andal dan efisien. Dengan pengalaman dan dedikasi yang kuat, kami siap membantu memenuhi kebutuhan logistik Anda, mulai dari pengiriman jarak jauh hingga pengiriman jumlah kecil. Tim profesional kami bekerja keras untuk memastikan setiap pengiriman dilakukan dengan aman dan tepat waktu, memberikan kepuasan maksimal kepada pelanggan."
   },
   "WhyChooseUs": {
     "special": "Apa yang membuat kami Spesial?",

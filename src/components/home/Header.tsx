@@ -2,22 +2,12 @@
 
 import React, { useRef } from "react";
 import Image from "next/image";
-// import Link from "next/link";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-// } from "@/components/ui/carousel";
-// import Autoplay from "embla-carousel-autoplay";
 import AboutShort from "./AboutShort";
+interface HeaderProps {
+  subline: string; // Tentukan tipe subline sebagai string
+}
 
-const Header = () => {
-  // const imageSlides = [
-  //   { id: 1, path: "/images/young-man-working-warehouse-with-boxess.jpg" },
-  //   { id: 2, path: "/images/young-man-working-warehouse-with-boxes-_1_.webp" },
-  //   { id: 3, path: "/images/young-man-working-warehouse-with-boxess.jpg" },
-  // ];
-
+const Header = ({ subline }: HeaderProps) => {
   const ref = useRef<null | HTMLDivElement>(null);
 
   const handleClick = () => {
@@ -51,10 +41,7 @@ const Header = () => {
               Borders👋
             </h1>
 
-            <p className="max-w-xl sm:text-xl/relaxed text-white">
-              Kami membawa produk Anda ke seluruh penjuru Indonesia dengan
-              layanan distribusi yang handal dan efisien.
-            </p>
+            <p className="max-w-xl sm:text-xl/relaxed text-white">{subline}</p>
 
             <div className="mt-6 flex flex-wrap gap-4 text-center">
               <button

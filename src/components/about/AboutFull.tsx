@@ -28,14 +28,15 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
               </p>
               <div className="mt-4 relative">
                 <Image
-                  src="/images/woman-safety-equipment-work.jpg"
+                  src="/images/SCL_2646aa.jpeg"
                   alt="img"
                   width={1080}
                   height={1080}
-                  className="h-[35.5rem] 2xl:h-[30.3rem] object-cover rounded-2xl"
+                  // className="h-[35.5rem] 2xl:h-[30.3rem] object-cover rounded-2xl object-top"
+                  className="h-[35.5rem] 2xl:h-[34rem] object-cover rounded-2xl object-top"
                 />
-                <div className="absolute bg-yellowaba-500 rounded-full p-4 bottom-20 left-20 z-10">
-                  <Plus size={48} />
+                <div className="absolute bg-yellowaba-500 rounded-full p-4 bottom-20 left-16 2xl:left-20 z-10">
+                  <Plus size={36} />
                 </div>
                 <div className="bg-white absolute left-1/2 bottom-8 transform -translate-x-1/2 p-6 rounded-2xl w-full max-w-md text-center">
                   <h1 className="text-2xl font-semibold">
