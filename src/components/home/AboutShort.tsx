@@ -14,7 +14,7 @@ const AboutShort = forwardRef<HTMLDivElement>((props, ref) => {
         <div className="container w-full">
           <div className="grid grid-cols-2 items-center gap-8">
             <Image
-              src="/images/DSC07966.JPG"
+              src="/images/DSC07956.JPG"
               alt="img"
               width={1280}
               height={1280}
@@ -22,16 +22,16 @@ const AboutShort = forwardRef<HTMLDivElement>((props, ref) => {
             />
             <div className="w-full">
               <h1 className="text-6xl font-semibold font-syne">
-                Trucking <span className="text-yellowaba-500">Shipment</span>{" "}
-                Solution Since 2014
+                Solution for your Trucking{" "}
+                <span className="text-yellowaba-500">Shipment</span>{" "}
               </h1>
-              <p className="pt-4 leading-relaxed">
+              <p className="my-6 leading-relaxed">
                 <span className="font-semibold">
                   PT. ARMADA BERKAT ANUGERAH
                 </span>
                 {t("desc")}
               </p>
-              <div className="mt-4 mb-8">
+              <div className="mb-8">
                 <Progres />
               </div>
               <div className="flex mt-4">

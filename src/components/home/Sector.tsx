@@ -62,11 +62,11 @@ export default function Sector() {
               ))}
             </div>
             <Image
-              src="/images/bernd-dittrich-vQijG3uuaNw-unsplash 1.png"
+              src="/images/DSC07966.JPG"
               alt="imgtruck"
               width={1440}
               height={2560}
-              className="h-full object-cover absolute w-1/2 right-0"
+              className="h-full object-cover absolute w-1/2 right-0 object-left"
             />
           </div>
         </div>

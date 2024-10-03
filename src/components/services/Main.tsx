@@ -1,101 +1,55 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function Main() {
+  const t = useTranslations("Services-Home");
   const WhyChooseUs = [
     {
       id: 1,
-      title: "Pengiriman Jarak Jauh",
-      subline:
-        "Kami menyediakan layanan pengiriman ke seluruh Indonesia dengan cepat dan aman.",
+      title: t("title-1"),
+      subline: t("subline-1"),
       path: "/images/bernd-dittrich-Xk1IfNnEhRA-unsplash.jpg",
+      icon: "/images/long.svg",
     },
     {
       id: 2,
-      title: "Pengiriman Jarak Dekat",
-      subline:
-        "Layanan cepat untuk pengiriman dalam kota atau antar kota terdekat.",
+      title: t("title-2"),
+      subline: t("subline-2"),
       path: "/images/colleagues-safety-equipment-work.jpg",
+      icon: "/images/short.svg",
     },
     {
       id: 3,
-      title: "Pengiriman Dalam Jumlah Besar",
-      subline:
-        "Kami menangani pengiriman barang dalam jumlah besar dengan armada yang siap.",
+      title: t("title-3"),
+      subline: t("subline-3"),
       path: "/images/woman-wearing-safety-cap-work.jpg",
+      icon: "/images/big.svg",
     },
     {
       id: 4,
-      title: "Pengiriman Dalam Jumlah Kecil",
-      subline:
-        "Pengiriman barang kecil dengan layanan yang efisien dan terjangkau.",
+      title: t("title-4"),
+      subline: t("subline-4"),
       path: "/images/woman-safety-equipment-work.jpg",
+      icon: "/images/small.svg",
     },
     {
       id: 5,
-      title: "Pengiriman Segala Jenis Barang",
-      subline:
-        "Kami melayani pengiriman berbagai jenis barang dengan aman dan tepat waktu.",
+      title: t("title-5"),
+      subline: t("subline-5"),
       path: "/images/woman-safety-equipment-work.jpg",
+      icon: "/images/all.svg",
     },
   ];
 
   return (
     <>
       <section className="container">
-        <div className="mt-16">
-          {/* <div>
-              <div className="p-6 bg-yellowaba-500 max-w-md rounded-2xl mb-4">
-                <h1 className="text-xl font-semibold">Pengiriman jarak jauh</h1>
-                <p>
-                  Kami menyediakan layanan pengiriman ke seluruh Indonesia
-                  dengan cepat dan aman.
-                </p>
-              </div>
-              <div className="p-6 bg-yellowaba-500 max-w-md rounded-2xl mb-4">
-                <h1 className="text-xl font-semibold">
-                  Pengiriman jarak dekat
-                </h1>
-                <p>
-                  Layanan cepat untuk pengiriman dalam kota atau antar kota
-                  terdekat.
-                </p>
-              </div>
-              <div className="p-6 bg-yellowaba-500 max-w-md rounded-2xl mb-4">
-                <h1 className="text-xl font-semibold">
-                  Melayani pengiriman dalam jumlah besar
-                </h1>
-                <p>
-                  Kami menangani pengiriman barang dalam jumlah besar dengan
-                  armada yang siap.
-                </p>
-              </div>
-              <div className="p-6 bg-yellowaba-500 max-w-md rounded-2xl mb-4">
-                <h1 className="text-xl font-semibold">
-                  Melayani pengiriman dalam jumlah kecil
-                </h1>
-                <p>
-                  Pengiriman barang kecil dengan layanan yang efisien dan
-                  terjangkau.
-                </p>
-              </div>
-              <div className="p-6 bg-yellowaba-500 max-w-md rounded-2xl">
-                <h1 className="text-xl font-semibold">
-                  Melayani pengiriman segala jenis barang
-                </h1>
-                <p>
-                  Kami melayani pengiriman berbagai jenis barang dengan aman dan
-                  tepat waktu.
-                </p>
-              </div>
-            </div> */}
-          {/* <Image
-              src="/images/truck.png"
-              alt="truck"
-              width={2560}
-              height={2560}
-              className=""
-            /> */}
+        <div className="my-16">
+          <div className="md:text-center flex flex-col items-center mb-12">
+            <h1 className="font-semibold text-5xl font-syne">{t("title")}</h1>
+            <p className="max-w-3xl pt-4 text-lg">{t("subtitle")}</p>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center w-full">
             {WhyChooseUs.slice(0, 2).map((slide, index) => (
@@ -111,6 +65,7 @@ export default function Main() {
                     />
                     <div className="absolute inset-y-0 left-8 flex items-center justify-center">
                       <div>
+                        {/* <Image src={slide.icon} alt={`icon ${index + 1}`} width={64} height={64}/> */}
                         <h1 className="text-3xl text-white font-semibold group-hover:text-gray-900 transition-all duration-500">
                           {slide.title}
                         </h1>

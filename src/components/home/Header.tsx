@@ -18,11 +18,11 @@ const Header = ({ subline }: HeaderProps) => {
     <>
       <section className="font-outfit">
         <div className="h-full w-full absolute">
-          <div className="relative h-full">
+          <div className="relative h-full overflow-hidden">
             <Image
               alt="hero"
-              src="/images/full-shot-man-walking-by-trucks-fleet 1.png"
-              className="h-[75dvh] md:h-screen w-full object-cover"
+              src="/images/DSC07958.JPG"
+              className="h-[75dvh] md:h-screen w-full object-cover scale-150 overflow-hidden"
               width={2560}
               height={2560}
             />

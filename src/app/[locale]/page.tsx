@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
-import WhyChooseUs from "@/components/home/WhyChooseUs";
+// import WhyChooseUs from "@/components/home/WhyChooseUs";
 import CallToAction from "@/components/home/CallToAction";
 import Sector from "@/components/home/Sector";
 import ImageRecent from "@/components/home/ImageRecent";
-import CTA from "@/components/home/CTA";
-import Footer from "@/components/navigation/Footer";
+// import CTA from "@/components/home/CTA";
+// import Footer from "@/components/navigation/Footer";
 import FirstHeaderTrans from "@/components/home/FirstHeaderTrans";
+import Main from "@/components/services/Main";
 
 export const metadata: Metadata = {
   title: "Home | PT. ARMADA BERKAT ANUGERAH",
@@ -19,7 +20,8 @@ export default function Home() {
       <FirstHeaderTrans />
       {/* <Header /> */}
       <CallToAction />
-      <WhyChooseUs />
+      {/* <WhyChooseUs /> */}
+      <Main />
       <Sector />
       <ImageRecent />
       {/* <CTA /> */}

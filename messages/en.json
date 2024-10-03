@@ -38,9 +38,18 @@
     "quote": "Being the first choice for international logistics solutions, we are ready to provide reliability and customer satisfaction every step of the way."
   },
   "Services-Home": {
-    "title": "Our Services",
-    "subtitle": "Our excellent services cover all your needs, from fast shipping to comprehensive consulting services.",
-    "button": "See our Services"
+    "title": "What can we offer?",
+    "subtitle": "We are committed to providing the best delivery service supported by an extensive network, advanced technology, professional team and full commitment.",
+    "title-1": "Long-Distance Delivery",
+    "subline-1": "We provide delivery services across Indonesia quickly and safely.",
+    "title-2": "Short-Distance Delivery",
+    "subline-2": "Fast services for deliveries within the city or nearby cities.",
+    "title-3": "Large Quantity Delivery",
+    "subline-3": "We handle large quantity shipments with a ready fleet.",
+    "title-4": "Small Quantity Delivery",
+    "subline-4": "Small package delivery with efficient and affordable service.",
+    "title-5": "All Types of Goods Delivery",
+    "subline-5": "We deliver various types of goods safely and on time."
   },
   "Specialist-Home": {
     "title": "Specialist for transportation",
