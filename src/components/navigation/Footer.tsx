@@ -4,13 +4,17 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "../ui/button";
+import { useTranslations } from "next-intl";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
+
+  const t = useTranslations("Navigation-Bar");
+
   const NavLinks = [
-    { id: 1, name: "Home", path: "/" },
-    { id: 2, name: "About", path: "/about" },
-    { id: 3, name: "Services", path: "/services" },
+    { id: 1, name: t("home"), path: "/" },
+    { id: 2, name: t("about"), path: "/about" },
+    { id: 3, name: t("service"), path: "/services" },
     // { id: 4, name: "Contact", path: "/contact" },
   ];
 
@@ -35,8 +39,7 @@ export default function Footer() {
               </div>
 
               <p className="my-6 max-w-lg leading-relaxed sm:max-w-xl sm:text-left">
-                Kami membawa produk Anda ke seluruh penjuru Indonesia dengan
-                layanan distribusi yang handal dan efisien.
+                {t("footer")}
               </p>
 
               <button className="font-semibold rounded-full bg-yellowaba-500 px-8 py-3 shadow hover:bg-yellowaba-600 focus:outline-none focus:ring active:bg-yellowaba-500 text-black">
@@ -48,7 +51,7 @@ export default function Footer() {
               <div></div>
               <div></div>
               <div className="text-center sm:text-left">
-                <p className="text-lg font-medium">Helpful Links</p>
+                <p className="text-lg font-medium">{t("link")}</p>
 
                 <ul className="mt-8 space-y-4 text-sm flex md:block gap-4">
                   {NavLinks.map((link) => (
@@ -74,7 +77,7 @@ export default function Footer() {
               </div>
 
               <div className="text-center sm:text-left mt-8 md:mt-0 col-span-2">
-                <p className="text-lg font-medium text-white">Contact Us</p>
+                <p className="text-lg font-medium text-white">{t("contact")}</p>
 
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>

@@ -7,6 +7,7 @@ import CTA from "@/components/home/CTA";
 import Footer from "@/components/navigation/Footer";
 import CallToAction from "@/components/home/CallToAction";
 import ImageRecent from "@/components/home/ImageRecent";
+import FirstImageTrans from "@/components/home/FirstImageTrans";
 
 export const metadata: Metadata = {
   title: "About | PT. BERLIMPAH ANUGERAH SEJATI",
@@ -22,7 +23,8 @@ export default function About() {
       <WhyChooseUs />
       {/* <CTA /> */}
       <CallToAction />
-      <ImageRecent />
+      {/* <ImageRecent /> */}
+      <FirstImageTrans />
     </main>
   );
 }

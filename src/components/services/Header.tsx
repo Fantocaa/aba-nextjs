@@ -22,7 +22,7 @@ const Header = () => {
             <div className="relative h-full">
               <Image
                 alt="hero"
-                src="/images/man-safety-equipment-work.jpg"
+                src="/images/DSC07958.JPG"
                 className="h-[75dvh] 2xl:h-[50dvh] w-full object-cover"
                 width={2560}
                 height={2560}

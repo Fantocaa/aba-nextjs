@@ -8,35 +8,21 @@
     "contact": "Hubungi Kami",
     "link": "Tautan Lainnya",
     "layanan": "Layanan Kami",
-    "footer": "Menjadi perusahaan Logistik Export dan Import terbaik yang terkemuka, terpercaya, dan handal dengan mengutamakan kepercayaan dan kepuasan Customer."
+    "footer": "Menjadi Perusahaan Logistik terkemuka yang berkomitmen untuk memberikan solusi pengiriman yang andal dan efisien."
   },
   "Header-Home": {
     "title": "Jangkau Penjuru Dunia Bersama Kami",
-    "subtitle": "Selalu siap memenuhi kebutuhan logistik Anda dengan aman, cepat, dan penuh kepastian di mana pun tujuannya.",
-    "button": "Lihat Layanan Kami"
+    "subtitle": "Selalu siap memenuhi kebutuhan logistik Anda dengan aman, cepat, dan penuh kepastian di mana pun tujuannya."
   },
   "About-Short": {
-    "head-1": "",
-    "desc": " adalah perusahaan logistik terkemuka yang berkomitmen untuk memberikan solusi pengiriman yang andal dan efisien. Dengan pengalaman dan dedikasi yang kuat, kami siap membantu memenuhi kebutuhan logistik Anda, mulai dari pengiriman jarak jauh hingga pengiriman jumlah kecil. Tim profesional kami bekerja keras untuk memastikan setiap pengiriman dilakukan dengan aman dan tepat waktu, memberikan kepuasan maksimal kepada pelanggan."
-  },
-  "WhyChooseUs": {
-    "special": "Apa yang membuat kami Spesial?",
-    "special-sub": "Menyediakan layanan transportasi berkualitas tinggi, komprehensif dan selalu memahami kebutuhan cutomer.",
-    "commit": "Komitmen",
-    "commit-sub": "Memiliki komitmen untuk memberikan service yang terbaik dan loyal terhadap setiap customer yang kami handle.",
-    "ontime": "Tepat Waktu",
-    "ontime-sub": "Dalam memberikan layanan yang berkualitas, kami selalu memastikan ketepatan dalam estimasi waktu yang kami janjikan.",
-    "efficiency": "Efisiensi",
-    "efficiency-sub": "Bersama dengan tim melakukan tugas dengan cepat, tepat, dan cermat sehingga memberikan hasil yang memuaskan bagi customer.",
-    "relation": "Relasi",
-    "relation-sub": "Selalu siap untuk menjadi solusi customer serta memberikan pelayanan yang komunikatif dan tepat dengan yang menjadi kunci dalam hubungan kerjasama kami dengan customer.",
-    "safety": "Keamanan",
-    "safety-sub": "Dalam menjaga kepercayaan yang diberikan customer kepada kami, Kami pastikan setiap pengiriman anda akan aman dan sesuai dengan kebutuhan customer.",
-    "nicely": "Dengan Baik",
-    "nicely-sub": "Memastikan setiap customer mendapatkan informasi yang komunikatif dengan layanan yang ramah. Sehingga menciptakan hubungan yang baik dengan semua pihak.",
-    "reliability": "Kehandalan",
-    "reliability-sub": "Memberikan pelatihan terhadap SDM untuk meningkatkan kualitas pelayanan dan kehandalan dalam melakukan tanggung jawab pekerjaan yang sudah di percayakan oleh customer.",
-    "quote": "Menjadi pilihan utama untuk solusi logistik internasional, kami siap menghadirkan kehandalan dan kepuasan pelanggan di setiap langkahnya."
+    "desc": " adalah perusahaan logistik terkemuka yang berkomitmen untuk memberikan solusi pengiriman yang andal dan efisien. Dengan pengalaman dan dedikasi yang kuat, kami siap membantu memenuhi kebutuhan logistik Anda, mulai dari pengiriman jarak jauh hingga pengiriman lokal. Tim profesional kami bekerja keras untuk memastikan setiap pengiriman dilakukan dengan aman dan tepat waktu, memberikan kepuasan maksimal kepada pelanggan.",
+    "desc-1": "Kami memahami pentingnya kepercayaan dalam industri ini, dan kami berusaha menjadi mitra yang dapat diandalkan dalam setiap langkah perjalanan produk Anda. Bergabunglah dengan kami untuk pengalaman pengiriman yang luar biasa!",
+    "vision": "Visi",
+    "mission": "Misi",
+    "vision-desc": "Menjadi perusahaan logistic terbaik yang terkemuka, terpercaya dan handal dengan mengutamakan kepercayaan dan kepuasan pelanggan",
+    "mission-1": "Memberikan pelayanan yang kompetitif, berkualitas, dan aman.",
+    "mission-2": "Menjadi solusi pelanggan dalam keperluan pengiriman barang.",
+    "mission-3": "Melakukan perkembangan manajemen dan teknologi sehingga mampu memberikan kepuasan dan kepercayaan pelanggan."
   },
   "Services-Home": {
     "title": "Apa yang bisa kami tawarkan?",
@@ -52,13 +38,17 @@
     "title-5": "Pengiriman Segala Jenis Barang",
     "subline-5": "Kami melayani pengiriman berbagai jenis barang dengan aman dan tepat waktu."
   },
-  "Specialist-Home": {
-    "title": "Spesialis Transportasi",
-    "subtitle": "Kami berkomitmen untuk memberikan layanan pengiriman terbaik yang didukung oleh jaringan luas, teknologi canggih, tim profesional, dan komitmen penuh."
+  "Sector-Home": {
+    "subline": "Kami mencakup berbagai sektor industri, mulai dari makanan dan minuman, bahan kimia, ritel, barang tahan lama, dan banyak lagi.",
+    "sector-value-1": "Barang Konsumsi Kemasan",
+    "sector-value-2": "Barang Kimia",
+    "sector-value-3": "Makanan dan Minuman",
+    "sector-value-4": "Barang Ritel",
+    "sector-value-5": "Energi, Minyak, dan Gas"
   },
-  "Member-Home": {
-    "title": "Talenta Profesional Kami",
-    "subtitle": "Kenali anggota tim kami yang ramah, berpengalaman, berpengetahuan, dan dinamis yang selalu membuat pelanggan kami puas."
+  "Recent-Home": {
+    "title": "Delivery Activity Gallery",
+    "subtitle": "Jelajahi momen penting dan pencapaian kami melalui koleksi gambar yang menggambarkan dedikasi dan komitmen kami."
   },
   "CTA": {
     "title": "Hubungi Kami",
@@ -88,39 +78,27 @@
     "desc2": "PT Anugerah Multi Logistik (PT AML) adalah bagian dari holding company PT Tako Anugerah Koporasi (PT TAKO) (Informasi lengkap kunjungi website",
     "desc3": ", yang dikenal dengan komitmennya dalam memberikan solusi logistik yang unggul dan terintegrasi. ",
     "desc4": "PT AML menawarkan berbagai layanan logistik, termasuk Freight Forwarding, Custom Clearance, dan Transportasi Intermodal & Multimodal. Dengan didukung oleh jaringan global dan teknologi modern, PT AML siap memenuhi kebutuhan logistik Anda dengan fleksibilitas dan efisiensi yang tinggi. Sebagai bagian dari PT TAKO, PT AML memiliki landasan yang kuat untuk terus berkembang dan memberikan pelayanan terbaik kepada pelanggannya.",
-    "vision": "Visi Kami",
-    "mission": "Misi Kami",
+    "vision": "Visi",
+    "mission": "Misi",
     "content-1": "Menjadi Perusahaan Logistik Export dan Import terbaik yang terkemuka, terpercaya, dan handal dengan mengutamakan kepercayaan dan kepuasan Customer.",
     "content-2": "Kami bertekad untuk menjadi pilihan utama dalam layanan logistik, memberikan solusi terbaik bagi kebutuhan ekspor dan impor, serta memberikan kepuasan yang tak tertandingi kepada setiap pelanggan. Dengan fokus pada keandalan, profesionalisme, dan inovasi, kami berkomitmen untuk terus meningkatkan kualitas layanan demi kepuasan dan kepercayaan pelanggan.",
     "content-li-1": "Memberikan Pelayanan yang Kompetitif, Berkualitas, dan Aman.",
     "content-li-2": "Menjadi solusi customer dalam keperluan pengiriman Export maupun Import.",
     "content-li-3": "Melakukan perkembangan manajemen dan teknologi sehingga mampu memberikan kepuasan dan kepercayaan kepada Customer"
   },
-  "Services": {
-    "header-1": "Layanan",
-    "header-2": "Beranda",
-    "content-1": "Apa yang kami tawarkan",
-    "content-2": "Menyediakan layanan logistik transportasi berkualitas tinggi dan komprehensif dengan biaya terendah",
-    "content-custom": "Kami mengurus semua proses bea cukai untuk memastikan kelancaran impor dan ekspor barang. Layanan kami mencakup persiapan dokumen, konsultasi kepabeanan, dan penyelesaian prosedur kepabeanan dengan cepat dan akurat.",
-    "content-custom-2": "Kami menyediakan jasa pengurusan kepabeanan (Bea Cukai) untuk pengiriman barang export & import via laut dan udara karena kami memiliki lisensi resmi sebagai Pengusaha Pengurusan Jasa Kepabeanan (PPJK). Semua proses pengerjaan dilakukan secara resmi.",
-    "content-sea": "Dengan jaringan global yang luas, kami menawarkan layanan pengiriman laut yang kompetitif dan andal. Kami menangani pengiriman Full Container Load (FCL) dan Less than Container Load (LCL) untuk memastikan barang Anda tiba dengan aman dan tepat waktu.",
-    "content-sea-1": "Jaringan kami juga tersebar di seluruh nusantara & memiliki kerjasama dengan agent-agent dari seluruh dunia. Tentunya harga yang kami tawarkan akan sangat kompetitif",
-    "content-sea-2": "Service dalam Freight Domestic / International yang kami berikan bisa meliputi :",
-    "content-sea-3": "Kami menawarkan solusi transportasi intermodal dan multimodal yang menggabungkan berbagai moda transportasi seperti laut, darat, dan udara. Layanan ini dirancang untuk memberikan fleksibilitas dan efisiensi dalam pengiriman barang.",
-    "content-sea-5": "Kami menawarkan layanan Less than Container Load (LCL) dan Full Container Load (FCL) untuk pengiriman laut, disesuaikan dengan kebutuhan volume dan kapasitas barang Anda.",
-    "content-sea-7": "Kami memiliki keahlian dalam menangani barang berbahaya sesuai dengan regulasi internasional, memastikan keamanan dan kepatuhan selama proses pengiriman.",
-    "content-sea-8": "Kami mengelola pengiriman kargo curah yang tidak dapat dimuat dalam kontainer standar, dengan solusi yang efisien untuk barang berukuran besar atau berat.",
-    "content-sea-9": "Kami menyediakan layanan konsolidasi pengiriman laut, menggabungkan barang dari berbagai pengirim untuk mengoptimalkan biaya dan efisiensi pengiriman.",
-    "content-sea-10": "Kami menawarkan layanan pengiriman dari pintu ke pelabuhan, memastikan barang Anda diambil dari lokasi Anda dan dikirim langsung ke pelabuhan tujuan dengan proses yang lancar dan terintegrasi.",
-    "content-trucking": "Kami menyediakan layanan trucking untuk pengiriman barang di seluruh wilayah Indonesia. Armada truk kami yang modern dan terawat memastikan pengiriman yang cepat, aman, dan efisien.",
-    "content-cargo": "Kami memahami pentingnya melindungi barang Anda selama proses pengiriman. Oleh karena itu, kami menawarkan layanan perantara asuransi kargo untuk memberikan perlindungan maksimal terhadap risiko kerusakan atau kehilangan.",
-    "content-intermodal": "Kami menawarkan solusi transportasi intermodal dan multimodal yang menggabungkan berbagai moda transportasi seperti laut, darat, dan udara. Layanan ini dirancang untuk memberikan fleksibilitas dan efisiensi dalam pengiriman barang.",
-    "content-intermodal-1": "Kami juga menyediakan Air Freight yang mencakup penanganan barang kiriman yang sensitif dan membutuhkan layanan secara cepat dan tepat yaitu via udara baik untuk wilayah Domestik ataupun Internasional.",
-    "content-intermodal-2": "Kami dapat menyediakan Sea Freight dengan term mulai EXW (Ex-Work), FOB (Free On Board), CNF (Cost & Freight), & CIF (Cost Insurance & Freight) yang mana disesuaikan dengan kebutuhan anda. Freight yang kami sediakan baik untuk pengiriman domestik maupun internasional.",
-    "content-intermodal-3": "Salah satu keunggulan kami sebagai transporter adalah dapat mengatur pengiriman barang secara multimoda (kombinasi jenis transportasi) untuk pengiriman barang hingga ke daerah yang sulit dijangkau oleh transportasi pada umumnya."
-  },
   "Contact": {
     "title": "Hubungi Kami",
     "subtitle": "Punya masalah teknis? Ingin mengirim masukan tentang suatu fitur? Butuh detail tentang rencana Bisnis kami? Beritahu kami."
+  },
+  "WhychooseUs": {
+    "title": "Apa yang membuat kami",
+    "title-1": "Berbeda",
+    "1": "Memiliki komitmen untuk memberikan pelayanan terbaik dan loyal terhadap setiap pelanggan Kami",
+    "2": "Dalam memberikan layanan yang berkualitas, Kami selalu memastikan ketepatan dalam estimasi waktu yang Kami janjikan",
+    "3": "Memberikan pelatihan terhadap SDM untuk meningkatkan kualitas pelayanan dan kehandalan dalam melakukan tanggung jawab pekerjaan yang sudah dipercayakan oleh pelanggan",
+    "4": " Memastikan setiap pelanggan mendapatkan informasi yang komunikatif dengan layanan yang ramah, sehingga menciptakan hubungan yang baik dengan semua pihak",
+    "5": "Bersama dengan tim melakukan tugas dengan cepat, tepat, dan cermat sehingga memberikan hasil yang memuaskan bagi pelanggan",
+    "6": "Selalu siap untuk menjadi solusi pelanggan serta memberikan pelayanan yang komunikatif dan tepat dengan yang menjadi kunci dalam hubungan kerjasama Kami dengan pelanggan",
+    "7": "Dalam menjaga kepercayaan yang diberikan customer kepada Kami dan Kami pastikan setiap pengiriman Anda akan aman dan seusai dengan kebutuhan pelanggan."
   }
 }

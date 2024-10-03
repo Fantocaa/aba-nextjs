@@ -3,20 +3,24 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Lightbox from "yet-another-react-lightbox";
-import "yet-another-react-lightbox/styles.css"; // Import gaya Lightbox
+import "yet-another-react-lightbox/styles.css";
 
-export default function ImageRecent() {
+interface HeaderProps {
+  subtitle: string;
+}
+
+export default function ImageRecent({ subtitle }: HeaderProps) {
   // State untuk mengelola lightbox
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
   // Daftar gambar yang digunakan dalam lightbox
   const slides = [
-    { src: "/images/img_017.jpg" },
-    { src: "/images/img_013.jpg" },
-    { src: "/images/img_018.jpg" },
-    { src: "/images/img_016.jpg" },
-    { src: "/images/img_014.jpg" },
+    { src: "/images/DSC07974.JPG" },
+    { src: "/images/DSC07956.JPG" },
+    { src: "/images/DSC07970.JPG" },
+    { src: "/images/DSC07966.JPG" },
+    { src: "/images/DSC07977.JPG" },
   ];
 
   return (
@@ -24,11 +28,10 @@ export default function ImageRecent() {
       <section className="container py-16">
         <div className="text-center">
           <h1 className="text-4xl font-syne font-semibold">
-            Recent <span>Successful</span> Delivery
+            Recent Activity Delivery
           </h1>
-          <p className="max-w-2xl text-center mx-auto mt-2">
-            Aliquid irure perspiciatis dignissim, ipsum minima, sint, incididunt
-            nobis eum architecto! Dicta suspendisse duis dicta.
+          <p className="max-w-3xl text-center mx-auto mt-2 text-lg">
+            {subtitle}
           </p>
         </div>
 
@@ -37,7 +40,7 @@ export default function ImageRecent() {
           {slides.slice(0, 2).map((slide, i) => (
             <Image
               key={i}
-              className="rounded-2xl cursor-pointer "
+              className="rounded-2xl cursor-pointer h-full object-cover"
               src={slide.src}
               alt={`Image ${i + 1}`}
               width={1080}
@@ -55,7 +58,7 @@ export default function ImageRecent() {
           {slides.slice(2).map((slide, i) => (
             <Image
               key={i + 2}
-              className="rounded-2xl cursor-pointer "
+              className="rounded-2xl cursor-pointer h-full object-cover"
               src={slide.src}
               alt={`Image ${i + 3}`}
               width={1080}

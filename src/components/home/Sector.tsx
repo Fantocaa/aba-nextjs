@@ -1,31 +1,33 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function Sector() {
+  const t = useTranslations("Sector-Home");
   const sectorgoods = [
     {
       id: 1,
-      name: "Consumer Packaged Goods",
+      name: t("sector-value-1"),
       path: "/images/Layer_goods_1.svg",
     },
     {
       id: 2,
-      name: "Chemical Goods",
+      name: t("sector-value-2"),
       path: "/images/Layer_goods_2.svg",
     },
     {
       id: 3,
-      name: "Food and Beverage",
+      name: t("sector-value-3"),
       path: "/images/Layer_goods_3.svg",
     },
     {
       id: 4,
-      name: "Retail Goods",
+      name: t("sector-value-4"),
       path: "/images/Layer_goods_4.svg",
     },
     {
       id: 5,
-      name: "Energy, Oil and Gas",
+      name: t("sector-value-5"),
       path: "/images/Layer_goods_5.svg",
     },
   ];
@@ -33,16 +35,13 @@ export default function Sector() {
     <>
       <section className="py-16">
         <div className="bg-blueaba-500 relative">
-          <div className="grid grid-cols-2 w-full container ">
-            <div className="text-white py-16">
-              <h1 className="text-6xl font-syne font-semibold">
+          <div className="grid grid-cols-2 w-full container">
+            <div className="text-white py-16 max-w-xl">
+              <h1 className="text-5xl font-syne font-semibold">
                 Industry <span className="text-yellowaba-500">Sectors</span>{" "}
                 Coverage
               </h1>
-              <p className="py-4 text-xl max-w-xl">
-                We cover different industry sectors, from food and beverage,
-                chemical, retail, durable goods and more. Check the full list.
-              </p>
+              <p className="py-4 text-xl">{t("subline")}</p>
 
               {sectorgoods.map((slide, index) => (
                 <div key={slide.id} className="flex gap-4">

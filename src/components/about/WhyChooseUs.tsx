@@ -7,6 +7,7 @@ import React, { useState } from "react";
 // import DataItem3 from "./tab/DataItem3";
 // import DataItem4 from "./tab/DataItem4";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function WhyChooseUs() {
   // const data = [
@@ -43,38 +44,31 @@ export default function WhyChooseUs() {
   //   data[0].content
   // );
 
+  const t = useTranslations("WhychooseUs");
+
   return (
     <section className="py-16">
       <div className="bg-blueaba-500 relative text-white overflow-hidden">
         <div className="container relative z-10 py-16">
           <h1 className="font-semibold text-5xl pb-4 text-center font-syne">
-            Why Make Us <span className="text-yellowaba-500">Difference</span>?
+            {t("title")}{" "}
+            <span className="text-yellowaba-500">{t("title-1")}</span>?
           </h1>
           <div className="grid grid-cols-2 mt-16 items-center">
             <div className="max-w-xl">
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2">Commitment</h1>
-                <p className="text-xl">
-                  Memiliki komitmen untuk memberikan pelayanan terbaik dan loyal
-                  terhadap setiap pelanggan Kami
-                </p>
+                <p className="text-xl">{t("1")}</p>
               </div>
               <div className="my-8">
                 <h1 className="text-4xl text-yellowaba-500 mb-2 ">Ontime</h1>
-                <p className="text-xl">
-                  Dalam memberikan layanan yang berkualitas, Kami selalu
-                  memastikan ketepatan dalam estimasi waktu yang Kami janjikan
-                </p>
+                <p className="text-xl">{t("2")}</p>
               </div>
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2">
                   Reliability
                 </h1>
-                <p className="text-xl">
-                  Memberikan pelatihan terhadap SDM untuk meningkatkan kualitas
-                  pelayanan dan kehandalan dalam melakukan tanggung jawab
-                  pekerjaan yang sudah dipercayakan oleh pelanggan
-                </p>
+                <p className="text-xl">{t("3")}</p>
               </div>
             </div>
             <Image
@@ -90,40 +84,25 @@ export default function WhyChooseUs() {
                 <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
                   Nicely
                 </h1>
-                <p className="text-xl">
-                  Memastikan setiap pelanggan mendapatkan informasi yang
-                  komunikatif dengan layanan yang ramah, sehingga menciptakan
-                  hubungan yang baik dengan semua pihak
-                </p>
+                <p className="text-xl">{t("4")}</p>
               </div>
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
                   Eficienly
                 </h1>
-                <p className="text-xl">
-                  Bersama dengan tim melakukan tugas dengan cepat, tepat, dan
-                  cermat sehingga memberikan hasil yang memuaskan bagi pelanggan
-                </p>
+                <p className="text-xl">{t("5")}</p>
               </div>
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
                   Relation
                 </h1>
-                <p className="text-xl">
-                  Selalu siap untuk menjadi solusi pelanggan serta memberikan
-                  pelayanan yang komunikatif dan tepat dengan yang menjadi kunci
-                  dalam hubungan kerjasama Kami dengan pelanggan
-                </p>
+                <p className="text-xl">{t("6")}</p>
               </div>
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
                   Safety
                 </h1>
-                <p className="text-xl">
-                  Dalam menjaga kepercayaan yang diberikan customer kepada Kami
-                  dan Kami pastikan setiap pengiriman Anda akan aman dan seusai
-                  dengan kebutuhan pelanggan.
-                </p>
+                <p className="text-xl">{t("7")}</p>
               </div>
             </div>
             <Image
@@ -134,7 +113,6 @@ export default function WhyChooseUs() {
             />
           </div>
         </div>
-        {/* Background image with opacity */}
         <Image
           src="/images/image 7.png"
           alt="img"

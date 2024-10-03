@@ -25,7 +25,7 @@ const AboutShort = forwardRef<HTMLDivElement>((props, ref) => {
                 Solution for your Trucking{" "}
                 <span className="text-yellowaba-500">Shipment</span>{" "}
               </h1>
-              <p className="my-6 leading-relaxed">
+              <p className="my-6 leading-relaxed text-lg">
                 <span className="font-semibold">
                   PT. ARMADA BERKAT ANUGERAH
                 </span>

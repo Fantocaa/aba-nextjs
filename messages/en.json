@@ -6,9 +6,9 @@
     "location": "Location",
     "career": "Careers",
     "contact": "Contact Us",
-    "link": "Other Links",
+    "link": "Helpful Links",
     "layanan": "Our Services",
-    "footer": "Become the best leading, trusted and reliable Export and Import Logistics company by prioritizing customer trust and satisfaction."
+    "footer": "Become a leading Logistics Company committed to providing reliable and efficient shipping solutions."
   },
   "Header-Home": {
     "title": "Reach To All Corners of The World With Us",
@@ -16,26 +16,14 @@
     "button": "See our Services"
   },
   "About-Short": {
-    "desc": " is a leading logistics company committed to providing reliable and efficient shipping solutions. With strong experience and dedication, we are ready to help meet your logistics needs, from long distance deliveries to small quantity deliveries. Our professional team works hard to ensure every delivery is made safely and on time, providing maximum customer satisfaction."
-  },
-  "WhyChooseUs": {
-    "special": "What Make Us Special?",
-    "special-sub": "Providing high quality, comprehensive transportation services and always understanding customer needs.",
-    "commit": "Commitment",
-    "commit-sub": "We are committed to providing the best service and being loyal to every customer we handle.",
-    "ontime": "On Time",
-    "ontime-sub": "When providing quality service, we always ensure the accuracy of the time estimates we promise.",
-    "efficiency": "Efficiency",
-    "efficiency-sub": "We work quickly, accurately, and carefully with the team to deliver results that satisfy our customers.",
-    "relation": "Relationship",
-    "relation-sub": "Always ready to be a customer solution and provide communicative and precise service which is the key to our cooperative relationship with customers.",
-    "safety": "Safety",
-    "safety-sub": "In maintaining the trust that customers have placed in us, we ensure that each of your deliveries will be safe and in accordance with customer needs.",
-    "nicely": "Nicely",
-    "nicely-sub": "Ensure that every customer gets communicative information with friendly service. So as to create good relationships with all parties.",
-    "reliability": "Reliability",
-    "reliability-sub": "Providing training to human resources to improve service quality and reliability in carrying out work responsibilities that have been entrusted by customers.",
-    "quote": "Being the first choice for international logistics solutions, we are ready to provide reliability and customer satisfaction every step of the way."
+    "desc": " is a leading logistics company committed to providing reliable and efficient shipping solutions. With strong experience and dedication, we are ready to help meet your logistics needs, from long distance deliveries to small quantity deliveries. Our professional team works hard to ensure every delivery is made safely and on time, providing maximum customer satisfaction.",
+    "desc-1": "We understand the importance of trust in this industry, and we strive to be a reliable partner every step of your product journey. Join us for an amazing delivery experience!",
+    "vision": "Vision",
+    "mission": "Mission",
+    "vision-desc": "To be the best leading, trusted and reliable logistics company by prioritizing customer trust and satisfaction",
+    "mission-1": "Provide competitive, quality and safe services.",
+    "mission-2": "To be a solution for customers in their goods delivery needs.",
+    "mission-3": "Carry out management and technology developments so as to provide customer satisfaction and trust."
   },
   "Services-Home": {
     "title": "What can we offer?",
@@ -51,10 +39,17 @@
     "title-5": "All Types of Goods Delivery",
     "subline-5": "We deliver various types of goods safely and on time."
   },
-  "Specialist-Home": {
-    "title": "Specialist for transportation",
-    "subtitle": "We provide comprehensive transportation services for our partners worldwide and always offer innovative solutions to address complex logistics challenges.",
-    "button": "See About Us"
+  "Sector-Home": {
+    "subline": "We cover different industry sectors, from food and beverage, chemical, retail, durable goods and more.",
+    "sector-value-1": "Consumer Packaged Goods",
+    "sector-value-2": "Chemical Goods",
+    "sector-value-3": "Food and Beverage",
+    "sector-value-4": "Retail Goods",
+    "sector-value-5": "Energy, Oil and Gas"
+  },
+  "Recent-Home": {
+    "title": "Delivery Activity Gallery",
+    "subtitle": "Explore our key moments and achievements through a collection of images that illustrate our dedication and commitment."
   },
   "Member-Home": {
     "title": "Our talent and professional members",
@@ -88,39 +83,27 @@
     "desc2": "PT Anugerah Multi Logistik (PT AML) is part of the holding company PT Tako Anugerah Koporasi (PT TAKO) (For more information, visit our website",
     "desc3": ", AML is known for its commitment in providing superior and integrated logistics solutions. ",
     "desc4": "PT AML offers a wide range of logistics services, including Freight Forwarding, Custom Clearance, and Intermodal & Multimodal Transportation. Supported by a global network and modern technology, PT AML is ready to fulfill your logistics needs with high flexibility and efficiency. As part of PT TAKO, PT AML has a strong foundation to continue to grow and provide the best service to its customers.",
-    "vision": "Our Vision",
-    "mission": "Our Mission",
+    "vision": "Vision",
+    "mission": "Mission",
     "content-1": "Become the best leading, trusted and reliable Export and Import Logistics Company by prioritizing customer trust and satisfaction",
     "content-2": "We are determined to be the first choice in logistics services, providing the best solutions for export and import needs, and providing unmatched satisfaction to every customer. With a focus on reliability, professionalism and innovation, we are committed to continuously improving service quality for customer satisfaction and trust.",
     "content-li-1": "Providing Competitive, Quality and Safe Services",
     "content-li-2": "Become a customer solution for export and import shipping needs.",
     "content-li-3": "Carrying out management and technology developments so as to provide satisfaction and trust to customers"
   },
-  "Services": {
-    "header-1": "Services",
-    "header-2": "Home",
-    "content-1": "What We Offer",
-    "content-2": "Provides high quality and comprehensive transportation logistics services with the lowest cost",
-    "content-custom": "We take care of all customs processes to ensure smooth import and export of goods. Our services include document preparation, customs consultation, and completion of customs procedures quickly and accurately.",
-    "content-custom-2": "We provide customs clearance services (Customs) for shipping export & import goods via sea and air because we have an official license as a Customs Management Services Entrepreneur (PPJK). All work processes are carried out officially.",
-    "content-sea": "With an extensive global network, we offer competitive and reliable ocean shipping services. We handle Full Container Load (FCL) and Less than Container Load (LCL) deliveries to ensure your goods arrive safely and on time.",
-    "content-sea-1": "Our network is also spread throughout the archipelago & has collaborations with agents from all over the world. Of course the prices we offer will be very competitive.",
-    "content-sea-2": "The Domestic / International Freight Services that we provide can include:",
-    "content-sea-3": "We offer intermodal and multimodal transportation solutions that combine various modes of transportation such as sea, land and air. This service is designed to provide flexibility and efficiency in the delivery of goods.",
-    "content-sea-5": "We offer Less than Container Load (LCL) and Full Container Load (FCL) services for sea shipping, tailored to the volume and capacity needs of your goods.",
-    "content-sea-7": "We have expertise in handling dangerous goods in accordance with international regulations, ensuring safety and compliance throughout the shipping process.",
-    "content-sea-8": "We manage bulk cargo shipments that cannot be loaded in standard containers, with efficient solutions for oversized or heavy items.",
-    "content-sea-9": "We provide ocean freight consolidation services, combining goods from multiple shippers to optimize shipping costs and efficiency.",
-    "content-sea-10": "We offer door-to-port delivery services, ensuring your goods are picked up from your location and delivered directly to the destination port in a seamless and integrated process.",
-    "content-trucking": "We provide trucking services for shipping goods throughout Indonesia. Our fleet of modern and well-maintained trucks ensures fast, safe and efficient delivery.",
-    "content-cargo": "We understand the importance of protecting your goods during the shipping process. Therefore, we offer cargo insurance intermediary services to provide maximum protection against the risk of damage or loss.",
-    "content-intermodal": "We provide intermodal and multimodal transportation solutions that combine various modes of transportation such as sea, land and air. This service is designed to provide flexibility and efficiency in the delivery of goods.",
-    "content-intermodal-1": "We also provide Air Freight which includes handling sensitive shipments that require fast and precise service, namely via air for both domestic and international areas.",
-    "content-intermodal-2": "We can provide Sea Freight with terms ranging from EXW (Ex-Work), FOB (Free On Board), CNF (Cost & Freight), & CIF (Cost Insurance & Freight) which are adjusted to your needs. We provide freight for both domestic and international shipping.",
-    "content-intermodal-3": "One of our advantages as a transporter is that we can arrange multimodal delivery of goods (a combination of types of transportation) to send goods to areas that are difficult to reach by transportation in general."
-  },
   "Contact": {
     "title": "Contact Us",
     "subtitle": "Got a technical issue? Want to send feedback about a feature? Need details about our Business plan? Let us know."
+  },
+  "WhychooseUs": {
+    "title": "Why Make Us",
+    "title-1": "Difference",
+    "1": "Committed to providing the best service and loyalty to every customer.",
+    "2": "In delivering quality service, we always ensure the accuracy of the time estimates we promise.",
+    "3": "Providing training for human resources to enhance service quality and reliability in fulfilling responsibilities entrusted by customers.",
+    "4": "Ensuring every customer receives communicative information with friendly service, fostering good relationships with all parties.",
+    "5": "Working together as a team with speed, precision, and accuracy to deliver satisfying results for customers.",
+    "6": "Always ready to be the customer's solution, providing communicative and accurate services, which are key to our collaboration with customers.",
+    "7": "In maintaining the trust given by our customers, we ensure that every delivery will be safe and meet customer needs."
   }
 }

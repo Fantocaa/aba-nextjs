@@ -7,6 +7,7 @@ import ImageRecent from "@/components/home/ImageRecent";
 // import Footer from "@/components/navigation/Footer";
 import FirstHeaderTrans from "@/components/home/FirstHeaderTrans";
 import Main from "@/components/services/Main";
+import FirstImageTrans from "@/components/home/FirstImageTrans";
 
 export const metadata: Metadata = {
   title: "Home | PT. ARMADA BERKAT ANUGERAH",
@@ -23,7 +24,8 @@ export default function Home() {
       {/* <WhyChooseUs /> */}
       <Main />
       <Sector />
-      <ImageRecent />
+      <FirstImageTrans />
+      {/* <ImageRecent /> */}
       {/* <CTA /> */}
       {/* <Footer /> */}
     </main>
