@@ -1,16 +1,25 @@
 import React from "react";
+import Header from "@/components/contact/Header";
 import { Button } from "@/components/ui/button";
 import ContactApi from "@/components/contact/Contact";
-import Header from "@/components/contact/Header";
 import CTA from "@/components/home/CTA";
 import Footer from "@/components/navigation/Footer";
-import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "Contact Us | PT. BERLIMPAH ANUGERAH SEJATI",
-  description:
-    "Kami membawa produk Anda ke seluruh penjuru Indonesia dengan layanan distribusi yang handal dan efisien.",
-};
+interface Params {
+  params: {
+    locale: string;
+  };
+}
+
+export async function generateMetadata({ params: { locale } }: Params) {
+  const t = await getTranslations({ locale, namespace: "MetadataHome" });
+
+  return {
+    title: t("contact"),
+    description: t("description"),
+  };
+}
 
 export default function Contact() {
   return (

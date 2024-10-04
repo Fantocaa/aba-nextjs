@@ -8,12 +8,21 @@ import Sector from "@/components/home/Sector";
 import FirstHeaderTrans from "@/components/home/FirstHeaderTrans";
 import Main from "@/components/services/Main";
 import FirstImageTrans from "@/components/home/FirstImageTrans";
+import { getTranslations } from "next-intl/server";
+interface Params {
+  params: {
+    locale: string;
+  };
+}
 
-export const metadata: Metadata = {
-  title: "Home | PT. ARMADA BERKAT ANUGERAH",
-  description:
-    "Kami membawa produk Anda ke seluruh penjuru Indonesia dengan layanan distribusi yang handal dan efisien.",
-};
+export async function generateMetadata({ params: { locale } }: Params) {
+  const t = await getTranslations({ locale, namespace: "MetadataHome" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default function Home() {
   return (

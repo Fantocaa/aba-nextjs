@@ -8,12 +8,22 @@ import Footer from "@/components/navigation/Footer";
 import CallToAction from "@/components/home/CallToAction";
 import ImageRecent from "@/components/home/ImageRecent";
 import FirstImageTrans from "@/components/home/FirstImageTrans";
+import { getTranslations } from "next-intl/server";
 
-export const metadata: Metadata = {
-  title: "About | PT. BERLIMPAH ANUGERAH SEJATI",
-  description:
-    "Kami membawa produk Anda ke seluruh penjuru Indonesia dengan layanan distribusi yang handal dan efisien.",
-};
+interface Params {
+  params: {
+    locale: string;
+  };
+}
+
+export async function generateMetadata({ params: { locale } }: Params) {
+  const t = await getTranslations({ locale, namespace: "MetadataAbout" });
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default function About() {
   return (
