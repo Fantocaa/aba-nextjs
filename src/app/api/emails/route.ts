@@ -1,7 +1,5 @@
-import { NextResponse, NextRequest } from "next/server";
+import { NextResponse } from "next/server";
 import nodemailer from "nodemailer";
-
-// Handles POST requests to /api
 
 export async function POST(request: any) {
   const username = process.env.NEXT_PUBLIC_BURNER_USERNAME;
@@ -18,17 +16,25 @@ export async function POST(request: any) {
   // create transporter object
   const transporter = nodemailer.createTransport({
     // host: "srv1.kotakemail.com",
-    service: "smtp.gmail.com",
-    port: 587,
-    secure: false,
-    tls: {
-      // ciphers: "SSLv3",
-      rejectUnauthorized: false,
-    },
+    // service: "smtp.gmail.com",
+    service: "gmail",
+    // port: 587,
+    port: 465,
+    // secure: false,
+    secure: true,
+    // logger: true,
+    // debug: true,
+
+    // secureConnection: false,
 
     auth: {
       user: username,
       pass: password,
+    },
+
+    tls: {
+      // ciphers: "SSLv3",
+      rejectUnauthorized: true,
     },
   });
 
@@ -47,7 +53,12 @@ export async function POST(request: any) {
 
     return NextResponse.json({ message: "Success: email was sent" });
   } catch (error) {
-    console.log(error);
-    return NextResponse.json({ message: "COULD NOT SEND MESSAGE" });
+    // console.log(error);
+    // return NextResponse.json({ message: "COULD NOT SEND MESSAGE" });
+    // Kirim respons error dengan status 500
+    return NextResponse.json(
+      { message: "Error: email could not be sent" },
+      { status: 500 }
+    );
   }
 }
