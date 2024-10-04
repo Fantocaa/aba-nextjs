@@ -232,7 +232,7 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                   </NavigationMenuList>
                 </NavigationMenu>
               </div>
-              <div className="flex items-center gap-2">
+              <div className="md:flex items-center gap-2 hidden">
                 <LocalSwitcher />
                 <div className="md:flex items-center gap-4 hidden">
                   <div className="sm:flex sm:gap-4">
@@ -287,7 +287,7 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                     <Link className="block text-teal-600" href="/">
                       <span className="sr-only">Home</span>
                       <Image
-                        src="/images/logo/LOGO PT. BERLIMPAH ANUGERAH SEJATI 2.png"
+                        src="/images/logo/Group 5.png"
                         alt="logo"
                         width={64}
                         height={64}
@@ -315,7 +315,7 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                   </div>
 
                   <ul className="mt-6 space-y-1">
-                    {NavLinks.map((link) => (
+                    {NavLinks.slice(0, 3).map((link) => (
                       <li key={link.id}>
                         <Link
                           href={link.path}
@@ -343,6 +343,7 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
           </>
         )}
       </AnimatePresence>
+
       <div className="fixed z-50 bottom-10 right-4 md:right-10 2xl:right-24">
         <div className="relative">
           {!showDropdown ? (
@@ -365,7 +366,6 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
               <div className="py-1">
                 <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
-                    {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
                       Branch Surabaya
@@ -374,7 +374,6 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                 </Link>
                 <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
-                    {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
                       Branch Makassar
@@ -383,7 +382,6 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                 </Link>
                 <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
-                    {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
                       Branch Gorontalo
@@ -392,7 +390,6 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                 </Link>
                 <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
-                    {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
                       Branch Manado
@@ -401,7 +398,6 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                 </Link>
                 <Link href="#" target="__blank">
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
-                    {/* <LucideGlobe /> */}
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
                       Branch Semarang

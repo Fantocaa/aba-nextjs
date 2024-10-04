@@ -36,11 +36,11 @@ export default function ImageRecent({ subtitle }: HeaderProps) {
         </div>
 
         {/* Gambar 2 kolom */}
-        <div className="grid grid-cols-2 mt-8 gap-4">
+        <div className="md:grid grid-cols-2 mt-8 gap-4">
           {slides.slice(0, 2).map((slide, i) => (
             <Image
               key={i}
-              className="rounded-2xl cursor-pointer h-full object-cover"
+              className="rounded-2xl cursor-pointer h-full object-cover mb-4 md:mb-0"
               src={slide.src}
               alt={`Image ${i + 1}`}
               width={1080}
@@ -54,11 +54,11 @@ export default function ImageRecent({ subtitle }: HeaderProps) {
         </div>
 
         {/* Gambar 3 kolom */}
-        <div className="grid grid-cols-3 mt-4 gap-4">
+        <div className="md:grid grid-cols-3 md:mt-4 gap-4">
           {slides.slice(2).map((slide, i) => (
             <Image
               key={i + 2}
-              className="rounded-2xl cursor-pointer h-full object-cover"
+              className="rounded-2xl cursor-pointer h-full object-cover mb-4 md:mb-0"
               src={slide.src}
               alt={`Image ${i + 3}`}
               width={1080}

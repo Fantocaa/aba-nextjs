@@ -10,9 +10,9 @@ const AboutShort = forwardRef<HTMLDivElement>((props, ref) => {
   const t = useTranslations("About-Short");
   return (
     <section ref={ref}>
-      <div className="pt-32 pb-16 relative">
+      <div className="pt-16 md:pt-32 pb-16 relative">
         <div className="container w-full">
-          <div className="grid grid-cols-2 items-center gap-8">
+          <div className="md:grid grid-cols-2 items-center gap-8">
             <Image
               src="/images/DSC07956.JPG"
               alt="img"
@@ -21,7 +21,7 @@ const AboutShort = forwardRef<HTMLDivElement>((props, ref) => {
               className="hidden md:block shadow-2xl object-cover w-full h-full rounded-2xl"
             />
             <div className="w-full">
-              <h1 className="text-6xl font-semibold font-syne">
+              <h1 className="text-5xl md:text-6xl font-semibold font-syne">
                 Solution for your Trucking{" "}
                 <span className="text-yellowaba-500">Shipment</span>{" "}
               </h1>

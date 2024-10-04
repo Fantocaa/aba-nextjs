@@ -35,16 +35,16 @@ export default function Sector() {
     <>
       <section className="py-16">
         <div className="bg-blueaba-500 relative">
-          <div className="grid grid-cols-2 w-full container">
+          <div className="md:grid grid-cols-2 w-full container">
             <div className="text-white py-16 max-w-xl">
               <h1 className="text-5xl font-syne font-semibold">
                 Industry <span className="text-yellowaba-500">Sectors</span>{" "}
                 Coverage
               </h1>
-              <p className="py-4 text-xl">{t("subline")}</p>
+              <p className="py-4 text-xl mb-6 md:mb-0">{t("subline")}</p>
 
               {sectorgoods.map((slide, index) => (
-                <div key={slide.id} className="flex gap-4">
+                <div key={slide.id} className="flex gap-4 ">
                   <Image
                     src={slide.path}
                     alt={`Image ${index + 1}`}
@@ -65,7 +65,7 @@ export default function Sector() {
               alt="imgtruck"
               width={1440}
               height={2560}
-              className="h-full object-cover absolute w-1/2 right-0 object-left"
+              className="h-full object-cover w-1/2 right-0 object-left hidden md:absolute"
             />
           </div>
         </div>

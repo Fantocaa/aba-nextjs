@@ -13,19 +13,19 @@ export default function CallToAction() {
             alt="img"
             width={1280}
             height={1280}
-            className="w-full h-40 object-cover opacity-10"
+            className="w-full h-96 md:h-40 object-cover opacity-10"
           />
 
           {/* Content on top of the background */}
-          <div className="absolute inset-0 flex justify-between items-center px-32 py-6">
+          <div className="absolute inset-0 md:flex justify-between items-center px-6 md:px-32 pt-10 md:py-6">
             {/* Left side: Icon and text */}
-            <div className="flex gap-8 items-center max-w-xl">
+            <div className="md:flex pb-8 md:pb-0 gap-8 items-center max-w-xl">
               <Image
                 src="/images/image 5.svg"
                 alt="shield"
                 width={1280}
                 height={500}
-                className="w-16"
+                className="w-16 pb-8 md:pb-0"
               />
               <h1 className="text-white text-4xl font-syne">
                 Delivering Through Best{" "}

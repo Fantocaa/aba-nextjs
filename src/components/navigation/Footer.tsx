@@ -160,7 +160,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="mt-12 border-t border-gray-100 pt-6">
+          <div className="mt-12 border-t border-gray-100 pt-6 mb-6 md:mb-0">
             <div className="text-center sm:flex sm:justify-center sm:text-center">
               <p className="text-xs text-white text-center">
                 &copy; {currentYear}. PT. ARMADA BERKAT ANUGERAH. All rights

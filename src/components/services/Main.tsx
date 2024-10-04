@@ -47,7 +47,9 @@ export default function Main() {
       <section className="container">
         <div className="my-16">
           <div className="md:text-center flex flex-col items-center mb-12">
-            <h1 className="font-semibold text-5xl font-syne">{t("title")}</h1>
+            <h1 className="font-semibold text-5xl font-syne pr-4">
+              {t("title")}
+            </h1>
             <p className="max-w-3xl pt-4 text-lg">{t("subtitle")}</p>
           </div>
 
@@ -63,7 +65,7 @@ export default function Main() {
                       height={500}
                       className="w-full h-full object-cover transition-all duration-500 scale-105 md:scale-100 md:group-hover:scale-105 opacity-30"
                     />
-                    <div className="absolute inset-y-0 left-8 flex items-center justify-center">
+                    <div className="absolute inset-y-0 left-6 md:left-8 flex items-center justify-center max-w-72">
                       <div>
                         {/* <Image src={slide.icon} alt={`icon ${index + 1}`} width={64} height={64}/> */}
                         <h1 className="text-3xl text-white font-semibold group-hover:text-gray-900 transition-all duration-500">
@@ -91,7 +93,7 @@ export default function Main() {
                       height={500}
                       className="w-full h-full object-cover transition-all duration-500 scale-105 md:scale-100 md:group-hover:scale-105 opacity-30"
                     />
-                    <div className="absolute inset-y-0 left-8 flex items-center justify-center max-w-xs w-full">
+                    <div className="absolute inset-y-0 left-6 md:left-8 flex items-center justify-center max-w-xs w-full">
                       <div>
                         <h1 className="text-3xl text-white font-semibold group-hover:text-gray-900 transition-all duration-500">
                           {slide.title}
