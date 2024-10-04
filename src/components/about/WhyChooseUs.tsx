@@ -1,49 +1,8 @@
-// "use client";
-
-import React, { useState } from "react";
-// import Data from "./tab/Data";
-// import DataItem1 from "./tab/DataItem1";
-// import DataItem2 from "./tab/DataItem2";
-// import DataItem3 from "./tab/DataItem3";
-// import DataItem4 from "./tab/DataItem4";
+import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 export default function WhyChooseUs() {
-  // const data = [
-  //   {
-  //     id: 1,
-  //     title: "Jaringan Distributor",
-  //     content: <DataItem1 />,
-  //   },
-  //   {
-  //     id: 2,
-  //     title: "Teknologi Terdepan",
-  //     content: <DataItem2 />,
-  //   },
-  //   {
-  //     id: 3,
-  //     title: "Tim Profesional",
-  //     content: <DataItem3 />,
-  //   },
-  //   {
-  //     id: 4,
-  //     title: "Komitment Penuh",
-  //     content: <DataItem4 />,
-  //   },
-  // ];
-
-  // const [selectedId, setSelectedId] = useState(data[0].id);
-
-  // const handleClick = (id: number, content: React.ReactNode) => {
-  //   setSelectedId(id);
-  //   setSelectedContent(content);
-  // };
-
-  // const [selectedContent, setSelectedContent] = useState<React.ReactNode>(
-  //   data[0].content
-  // );
-
   const t = useTranslations("WhychooseUs");
 
   return (
@@ -54,8 +13,15 @@ export default function WhyChooseUs() {
             {t("title")}{" "}
             <span className="text-yellowaba-500">{t("title-1")}</span>?
           </h1>
-          <div className="grid grid-cols-2 mt-16 items-center">
-            <div className="max-w-xl">
+          <div className="md:grid grid-cols-2 mt-16 items-center">
+            <Image
+              src="/images/commit.svg"
+              alt="commit"
+              width={1080}
+              height={1080}
+              className="order-last"
+            />
+            <div className="max-w-xl pt-8 md:pt-0">
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2">Commitment</h1>
                 <p className="text-xl">{t("1")}</p>
@@ -71,14 +37,8 @@ export default function WhyChooseUs() {
                 <p className="text-xl">{t("3")}</p>
               </div>
             </div>
-            <Image
-              src="/images/commit.svg"
-              alt="commit"
-              width={1080}
-              height={1080}
-            />
           </div>
-          <div className="grid grid-cols-2 mt-8 items-center">
+          <div className="md:grid grid-cols-2 mt-8 items-center">
             <div className="order-last">
               <div>
                 <h1 className="text-4xl text-yellowaba-500 mb-2 mt-8">
@@ -110,6 +70,7 @@ export default function WhyChooseUs() {
               alt="reliability"
               width={1080}
               height={1080}
+              className="hidden md:block"
             />
           </div>
         </div>

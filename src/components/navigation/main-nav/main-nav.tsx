@@ -336,6 +336,12 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                         </h1>
                       </Link>
                     </li>
+                    <li>
+                      <h1 className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                        Select Language:
+                      </h1>
+                      <LocalSwitcher />
+                    </li>
                   </ul>
                 </div>
               </div>

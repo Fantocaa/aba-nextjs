@@ -2,28 +2,20 @@
 
 import React from "react";
 import Image from "next/image";
-// import AboutFull from "./AboutFull";
-// import Link from "next/link";
-// import {
-//   Carousel,
-//   CarouselContent,
-//   CarouselItem,
-//   CarouselNext,
-//   CarouselPrevious,
-// } from "@/components/ui/carousel";
-// import Autoplay from "embla-carousel-autoplay";
+import { useTranslations } from "next-intl";
 
 const Header = () => {
+  const t = useTranslations("Navigation-Bar");
   return (
     <>
       <section>
-        <div>
+        <div className="pb-8 md:pb-0">
           <div className="absolute w-full">
             <div className="relative h-full">
               <Image
                 alt="hero"
                 src="/images/DSC07958.JPG"
-                className="h-[75dvh] 2xl:h-[50dvh] w-full object-cover"
+                className="h-[50dvh] md:h-[75dvh] 2xl:h-[50dvh] w-full object-cover"
                 width={2560}
                 height={2560}
               />
@@ -32,13 +24,13 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="relative container lg:flex lg:h-[75dvh] 2xl:h-[50dvh] lg:items-center py-44 md:py-0 justify-center">
-          <p className="mt-12 max-w-lg sm:text-6xl/relaxed text-white">
-            Services
+        <div className="relative container lg:flex lg:h-[75dvh] 2xl:h-[50dvh] lg:items-center py-40 md:py-0 justify-center">
+          <p className="mt-8 md:mt-12 max-w-lg text-5xl md:text-6xl/relaxed text-white">
+            {t("service")}
           </p>
         </div>
       </section>
-      <section>{/* <AboutFull ref={ref} /> */}</section>
+      {/* <section><AboutFull ref={ref} /></section> */}
     </>
   );
 };

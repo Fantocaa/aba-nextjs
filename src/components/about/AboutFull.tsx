@@ -13,10 +13,10 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
         className="container py-16 mt-16"
         // ref={ref}
       >
-        <div className="grid md:grid-cols-2 gap-4 items-end">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-4 items-end">
           <>
             <div>
-              <h1 className="lg:text-5xl 2xl:text-6xl font-semibold font-syne pb-4 max-w-xl">
+              <h1 className="text-5xl 2xl:text-6xl font-semibold font-syne pb-8 md:pb-4 max-w-xl">
                 Solution for your Trucking{" "}
                 <span className="text-yellowaba-500">Shipment</span>{" "}
               </h1>
@@ -39,11 +39,28 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
             </div>
           </>
         </div>
-        <div className="flex gap-4 h-full items-end">
+        <div className="md:flex gap-4 h-full items-end">
           <div className="flex-1">
             <h1 className="text-5xl font-bold font-syne mt-24">
               Moving Your Products Across All Borders👋
             </h1>
+
+            <div className="flex-1 relative md:hidden mt-8">
+              <Image
+                src="/images/SCL_2646aa - Copy.jpeg"
+                alt="img"
+                width={1080}
+                height={1080}
+                className="h-96 object-cover rounded-2xl object-top"
+              />
+              <div className="absolute bg-yellowaba-500 rounded-full p-4 bottom-32 left-4 z-10">
+                <Plus size={16} />
+              </div>
+              <div className="bg-white absolute left-1/2 bottom-8 transform -translate-x-1/2 p-6 rounded-2xl w-full max-w-xs text-center">
+                <h1 className="text-2xl font-semibold">Ari Mulyana Pratama</h1>
+                <h2>Manager of PT. ARMADA BERKAT ANUGERAH</h2>
+              </div>
+            </div>
 
             <div className="bg-yellowaba-500 p-6 py-8 text-black h-fit mt-4 rounded-2xl">
               <h1 className="text-4xl font-bold font-syne">Vision</h1>
@@ -60,7 +77,7 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
             </div>
           </div>
 
-          <div className="flex-1 relative">
+          <div className="flex-1 relative hidden md:block">
             <Image
               src="/images/SCL_2646aa.jpeg"
               alt="img"
