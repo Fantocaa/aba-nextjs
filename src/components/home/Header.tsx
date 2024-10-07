@@ -16,26 +16,26 @@ const Header = ({ subline }: HeaderProps) => {
 
   return (
     <>
-      <section className="font-outfit pb-44 md:pb-0">
+      <section className="font-outfit pb-56 md:pb-0">
         <div className="md:h-full w-full absolute">
-          <div className="relative h-[75dvh] md:h-full overflow-hidden">
+          <div className="relative h-[100dvh] md:h-full overflow-hidden">
             <Image
               alt="hero"
               src="/images/DSC07958.JPG"
-              className="h-full md:h-[75dvh] lg:h-screen w-full object-cover scale-150 overflow-hidden"
+              className="h-full md:h-[100dvh] lg:h-screen w-full object-cover scale-150 overflow-hidden"
               width={2560}
               height={2560}
             />
-            <div className="absolute top-0 left-0 w-full h-[75dvh] md:h-full bg-blueaba-500 opacity-90"></div>
+            <div className="absolute top-0 left-0 w-full h-[100dvh] md:h-full bg-blueaba-500 opacity-90"></div>
           </div>
         </div>
 
-        <div className="relative container lg:h-screen lg:grid grid-cols-2 lg:items-center pt-56 md:py-0">
+        <div className="relative container lg:h-screen lg:grid grid-cols-2 lg:items-center pt-72 md:py-0">
           <div className="text-left ltr:sm:text-left rtl:sm:text-right">
             <p className="md:mt-14 2xl:mt-0 max-w-lg sm:text-xl/relaxed text-white">
               PT. ARMADA BERKAT ANUGERAH
             </p>
-            <h1 className="py-4 text-3xl font-syne font-semibold sm:text-7xl/tight text-white 2xl:max-w-2xl lg:leading-[5rem]">
+            <h1 className="py-4 text-5xl font-syne font-semibold sm:text-7xl/tight text-white 2xl:max-w-2xl lg:leading-[5rem]">
               Moving Your{" "}
               <span className="text-yellowaba-500">Products Across</span> All
               Borders👋
