@@ -13,7 +13,7 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
         className="container py-16 mt-16"
         // ref={ref}
       >
-        <div className="grid md:grid-cols-2 gap-8 md:gap-4 items-end">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-4 items-center">
           <>
             <div>
               <h1 className="text-5xl 2xl:text-6xl font-semibold font-syne pb-8 md:pb-4 max-w-xl">

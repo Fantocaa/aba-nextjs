@@ -196,10 +196,10 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                         <Link
                           href={link.path}
                           className={isActive(link.path) ? "active" : ""}
-                          legacyBehavior
+                          // legacyBehavior
                           passHref
                         >
-                          <NavigationMenuLink
+                          <h1
                             className={`${navigationMenuTriggerStyle()} ${
                               isActive(link.path)
                                 ? "active bg-yellowaba-500 hover:bg-yellowaba-600 font-semibold text-darkaba"
@@ -211,7 +211,7 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                             }`}
                           >
                             {link.name}
-                          </NavigationMenuLink>
+                          </h1>
                         </Link>
                       </NavigationMenuItem>
                     ))}
