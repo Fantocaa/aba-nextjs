@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+
 import { Separator } from "@/components/ui/separator";
 import { ArrowUpRight } from "lucide-react";
 import { Button } from "../ui/button";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
