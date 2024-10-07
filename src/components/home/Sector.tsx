@@ -65,7 +65,7 @@ export default function Sector() {
               alt="imgtruck"
               width={1440}
               height={2560}
-              className="h-full object-cover w-1/2 right-0 object-left hidden md:absolute"
+              className="h-full object-cover w-1/2 right-0 object-left hidden md:block md:absolute"
             />
           </div>
         </div>
