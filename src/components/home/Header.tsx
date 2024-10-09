@@ -16,7 +16,7 @@ const Header = ({ subline }: HeaderProps) => {
 
   return (
     <>
-      <section className="font-outfit pb-64 md:pb-0">
+      <section className="font-outfit pb-[23rem] md:pb-0">
         <div className="md:h-full w-full absolute">
           <div className="relative h-[100dvh] md:h-full overflow-hidden">
             <Image
@@ -30,7 +30,7 @@ const Header = ({ subline }: HeaderProps) => {
           </div>
         </div>
 
-        <div className="relative container lg:h-screen lg:grid grid-cols-2 lg:items-center pt-64 md:py-0">
+        <div className="relative container lg:h-screen lg:grid grid-cols-2 lg:items-center pt-40 md:py-0">
           <div className="text-left ltr:sm:text-left rtl:sm:text-right">
             <p className="md:mt-14 2xl:mt-0 max-w-lg sm:text-xl/relaxed text-white">
               PT. ARMADA BERKAT ANUGERAH
