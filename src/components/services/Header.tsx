@@ -15,7 +15,7 @@ const Header = () => {
               <Image
                 alt="hero"
                 src="/images/DSC07958.JPG"
-                className="h-[50dvh] md:h-[75dvh] 2xl:h-[50dvh] w-full object-cover"
+                className="h-[50dvh] md:h-[60dvh] 2xl:h-[50dvh] w-full object-cover"
                 width={2560}
                 height={2560}
               />
@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="relative container lg:flex lg:h-[75dvh] 2xl:h-[50dvh] lg:items-center py-40 md:py-0 justify-center">
+        <div className="relative container lg:flex lg:h-[60dvh] 2xl:h-[50dvh] lg:items-center py-40 md:py-0 justify-center">
           <p className="mt-8 md:mt-12 max-w-lg text-5xl md:text-6xl/relaxed text-white">
             {t("service")}
           </p>

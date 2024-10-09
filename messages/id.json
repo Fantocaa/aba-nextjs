@@ -83,8 +83,11 @@
     "content-li-3": "Melakukan perkembangan manajemen dan teknologi sehingga mampu memberikan kepuasan dan kepercayaan kepada Customer"
   },
   "Contact": {
-    "title": "Hubungi Kami",
-    "subtitle": "Punya masalah teknis? Ingin mengirim masukan tentang suatu fitur? Butuh detail tentang rencana Bisnis kami? Beritahu kami."
+    "title-header": "Hubungi Kami",
+    "title": "Kirim Melalui Email",
+    "subtitle": "Punya masalah teknis? Ingin mengirim masukan tentang suatu fitur? Butuh detail tentang rencana Bisnis kami? Beritahu kami.",
+    "title-branch": "Kunjungi Cabang Kami",
+    "sub-branch": "Temukan solusi logistik terbaik di cabang terdekat."
   },
   "WhychooseUs": {
     "title": "Apa yang membuat kami",

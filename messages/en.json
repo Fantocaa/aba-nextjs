@@ -88,8 +88,11 @@
     "content-li-3": "Carrying out management and technology developments so as to provide satisfaction and trust to customers"
   },
   "Contact": {
-    "title": "Contact Us",
-    "subtitle": "Got a technical issue? Want to send feedback about a feature? Need details about our Business plan? Let us know."
+    "title-header": "Contact Us",
+    "title": "Send to Mail",
+    "subtitle": "Got a technical issue? Want to send feedback about a feature? Need details about our Business plan? Let us know.",
+    "title-branch": "Visit Our Branch",
+    "sub-branch": "Find the best logistics solutions at the nearest branch."
   },
   "WhychooseUs": {
     "title": "Why Make Us",

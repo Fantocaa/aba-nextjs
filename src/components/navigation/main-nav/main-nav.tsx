@@ -337,9 +337,20 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                       </Link>
                     </li>
                     <li>
-                      <h1 className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                      <Link
+                        href={
+                          NavLinks.find((link) => link.id === 5)?.path ||
+                          "/contact"
+                        }
+                        className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                      >
+                        {NavLinks.find((link) => link.id === 5)?.name}
+                      </Link>
+                    </li>
+                    <li className="pt-4">
+                      {/* <h1 className="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
                         Select Language:
-                      </h1>
+                      </h1> */}
                       <LocalSwitcher />
                     </li>
                   </ul>

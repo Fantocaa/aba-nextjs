@@ -1,9 +1,8 @@
 import React from "react";
 import Image from "next/image";
-
-import { Separator } from "@/components/ui/separator";
-import { ArrowUpRight } from "lucide-react";
-import { Button } from "../ui/button";
+// import { Separator } from "@/components/ui/separator";
+// import { ArrowUpRight } from "lucide-react";
+// import { Button } from "../ui/button";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
@@ -43,7 +42,7 @@ export default function Footer() {
                 {t("footer")}
               </p>
 
-              <button className="font-semibold rounded-full bg-yellowaba-500 px-8 py-3 shadow hover:bg-yellowaba-600 focus:outline-none focus:ring active:bg-yellowaba-500 text-black">
+              <button className="text-sm font-semibold rounded-full bg-yellowaba-500 px-8 py-2 shadow hover:bg-yellowaba-600 focus:outline-none focus:ring active:bg-yellowaba-500 text-black">
                 Contact Us
               </button>
             </div>
