@@ -66,7 +66,7 @@ export default function ContactBranch() {
               <span className="flex gap-2">
                 <MapPin size={20} />
                 <Link href={slide.link} target="__blank">
-                  <h1 className="underline underline-offset-2">
+                  <h1 className="underline decoration-black underline-offset-2 hover:text-blueaba-500 hover:decoration-white">
                     {slide.location}
                   </h1>
                 </Link>
