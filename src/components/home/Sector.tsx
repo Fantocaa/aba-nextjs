@@ -50,7 +50,6 @@ export default function Sector() {
                     alt={`Image ${index + 1}`}
                     width={96}
                     height={96}
-                    className=""
                   />
                   <div className="flex items-center">
                     <div className="max-w-md">
