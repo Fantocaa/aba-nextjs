@@ -97,8 +97,20 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
+                        <span className="flex text-white pb-1">
+                          +62 812 9048 4892 (Surabaya)
+                        </span>
+                        <span className="flex text-white pb-1">
+                          +62 812 3122 7180 (Semarang)
+                        </span>
+                        <span className="flex text-white pb-1">
+                          +62 812 354 2688 (Gorontalo)
+                        </span>
+                        <span className="flex text-white pb-1">
+                          +62 822 9637 0375 (Manado)
+                        </span>
                         <span className="flex text-white">
-                          +62 812 8057 8717
+                          +62 811 308 9090 (Makassar)
                         </span>
                         {/* <span className="flex text-gray-700">031-3537 981</span> */}
                       </div>
@@ -121,13 +133,15 @@ export default function Footer() {
                         />
                       </svg>
                       <div className="flex-1">
-                        <span className="flex text-white">aba@gmail.com</span>
+                        <span className="flex text-white">
+                          info@armadaberkat.com
+                        </span>
                       </div>
                     </div>
                   </li>
 
                   <li>
-                    <div className="flex items-start justify-center gap-4 ltr:sm:justify-start rtl:sm:justify-end">
+                    <div className="flex items-center justify-center gap-4 ltr:sm:justify-start rtl:sm:justify-end">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="size-5 shrink-0 text-white"

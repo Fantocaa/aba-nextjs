@@ -361,7 +361,7 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
         )}
       </AnimatePresence>
 
-      <div className="fixed z-50 bottom-10 right-4 md:right-10 2xl:right-24">
+      <div className="fixed z-50 bottom-8 right-4 md:right-10 2xl:right-24">
         <div className="relative">
           {!showDropdown ? (
             <button
@@ -381,7 +381,10 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
           {showDropdown && (
             <div className="absolute bottom-[5.5rem] right-0 py-2 w-48 bg-white rounded-lg shadow-xl">
               <div className="py-1">
-                <Link href="#" target="__blank">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=6281290484892"
+                  target="__blank"
+                >
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
@@ -389,7 +392,21 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                     </button>
                   </div>
                 </Link>
-                <Link href="#" target="__blank">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=6281231227180"
+                  target="__blank"
+                >
+                  <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
+                    <Phone />
+                    <button className="text-sm text-gray-800 text-left">
+                      Branch Semarang
+                    </button>
+                  </div>
+                </Link>
+                <Link
+                  href="https://api.whatsapp.com/send?phone=628113089090"
+                  target="__blank"
+                >
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
@@ -397,7 +414,10 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                     </button>
                   </div>
                 </Link>
-                <Link href="#" target="__blank">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=628123542688"
+                  target="__blank"
+                >
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
@@ -405,19 +425,14 @@ export default function MainNav({ NavLinks }: { NavLinks: NavLink[] }) {
                     </button>
                   </div>
                 </Link>
-                <Link href="#" target="__blank">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=6282296370375"
+                  target="__blank"
+                >
                   <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
                     <Phone />
                     <button className="text-sm text-gray-800 text-left">
                       Branch Manado
-                    </button>
-                  </div>
-                </Link>
-                <Link href="#" target="__blank">
-                  <div className="flex items-center hover:bg-gray-200 px-4 py-2 gap-4">
-                    <Phone />
-                    <button className="text-sm text-gray-800 text-left">
-                      Branch Semarang
                     </button>
                   </div>
                 </Link>
