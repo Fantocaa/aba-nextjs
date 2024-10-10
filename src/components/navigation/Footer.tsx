@@ -15,7 +15,7 @@ export default function Footer() {
     { id: 1, name: t("home"), path: "/" },
     { id: 2, name: t("about"), path: "/about" },
     { id: 3, name: t("service"), path: "/services" },
-    // { id: 4, name: "Contact", path: "/contact" },
+    { id: 4, name: "Contact", path: "/contact" },
   ];
 
   return (
@@ -42,9 +42,11 @@ export default function Footer() {
                 {t("footer")}
               </p>
 
-              <button className="text-sm font-semibold rounded-full bg-yellowaba-500 px-8 py-2 shadow hover:bg-yellowaba-600 focus:outline-none focus:ring active:bg-yellowaba-500 text-black">
-                Contact Us
-              </button>
+              <Link href="/contact">
+                <button className="text-sm font-semibold rounded-full bg-yellowaba-500 px-8 py-2 shadow hover:bg-yellowaba-600 focus:outline-none focus:ring active:bg-yellowaba-500 text-black">
+                  Contact Us
+                </button>
+              </Link>
             </div>
 
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-5 lg:col-span-2">
