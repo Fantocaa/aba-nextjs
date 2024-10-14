@@ -16,20 +16,25 @@ const Header = ({ subline }: HeaderProps) => {
 
   return (
     <>
-      <section className="font-outfit pb-[23rem] md:pb-0">
-        <div className="md:h-full w-full absolute">
+      <section className="font-outfit pb-[23rem] md:pb-0 overflow-hidden">
+        {" "}
+        {/* Tambahkan overflow-hidden di sini */}
+        <div className="md:h-full w-full absolute overflow-hidden">
+          {" "}
+          {/* Tambahkan overflow-hidden di sini */}
           <div className="relative h-[100dvh] md:h-full overflow-hidden">
+            {" "}
+            {/* Tambahkan overflow-hidden di sini */}
             <Image
               alt="hero"
               src="/images/DSC07958.JPG"
-              className="h-full md:h-[100dvh] lg:h-screen w-full object-cover scale-150 overflow-hidden"
+              className="h-full md:h-[100dvh] lg:h-screen w-full object-cover scale-100"
               width={2560}
               height={2560}
             />
             <div className="absolute top-0 left-0 w-full h-[100dvh] md:h-full bg-blueaba-500 opacity-90"></div>
           </div>
         </div>
-
         <div className="relative container lg:h-screen lg:grid grid-cols-2 lg:items-center pt-40 md:py-0">
           <div className="text-left ltr:sm:text-left rtl:sm:text-right">
             <p className="md:mt-14 2xl:mt-0 max-w-lg sm:text-xl/relaxed text-white">
@@ -52,17 +57,21 @@ const Header = ({ subline }: HeaderProps) => {
               </button>
             </div>
           </div>
-          <div className="w-full md:h-full hidden md:block">
+
+          <div className="w-full md:h-full hidden md:block overflow-hidden">
+            {" "}
+            {/* Tambahkan overflow-hidden di sini */}
             <Image
               src="/images/foto ABA.png"
               alt="person"
               width={2560}
               height={2560}
-              className="lg:h-[36rem] 2xl:h-[52rem] object-contain lg:translate-y-[4.2rem] 2xl:translate-y-[1.25rem] 2xl:scale-125"
+              className="lg:h-screen object-contain scale-125 2xl:scale-110 lg:-translate-y-8 2xl:-translate-y-6"
             />
           </div>
         </div>
       </section>
+
       <section>
         <AboutShort ref={ref} />
       </section>
