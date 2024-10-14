@@ -54,11 +54,11 @@ const Header = ({ subline }: HeaderProps) => {
           </div>
           <div className="w-full md:h-full hidden md:block">
             <Image
-              src="/images/Group 24.png"
+              src="/images/foto ABA.png"
               alt="person"
               width={2560}
               height={2560}
-              className="lg:h-[36rem] 2xl:h-[52rem] object-contain lg:translate-y-[4.2rem] 2xl:translate-y-[7.7rem]"
+              className="lg:h-[36rem] 2xl:h-[52rem] object-contain lg:translate-y-[4.2rem] 2xl:translate-y-[1.25rem] 2xl:scale-125"
             />
           </div>
         </div>

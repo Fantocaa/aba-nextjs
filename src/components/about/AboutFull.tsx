@@ -41,7 +41,7 @@ const AboutFull = forwardRef<HTMLDivElement>((props, ref) => {
         </div>
         <div className="md:flex gap-4 h-full items-end">
           <div className="flex-1">
-            <h1 className="text-5xl font-bold font-syne mt-24">
+            <h1 className="text-5xl font-bold font-syne mt-24 leading-snug">
               Moving Your Products Across All Borders👋
             </h1>
 
