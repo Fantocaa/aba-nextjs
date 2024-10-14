@@ -1,0 +1,56 @@
+name: Deploy Next.js Application to Production Server
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@main
+
+      - name: Install Node
+        uses: actions/setup-node@main
+        with:
+          node-version: "20"
+
+      - name: Install NPM Dependencies
+        run: npm install
+
+      - name: Build NPM Assets
+        run: npm run build
+
+      - name: Test SSH Connection
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            echo "SSH Connection Successful"
+
+      - name: Synchronize Files To Server
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SOURCE: ".next"
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USER }}
+          REMOTE_PORT: ${{ secrets.SSH_PORT }}
+          TARGET: "production/aba-nextjs/.next"
+
+      - name: Install PM2 and Restart Application
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd production/aba-nextjs
+            pm2 start npm --name "aba-nextjs" -- start
+            pm2 restart ecosystem.config.js
