@@ -17,14 +17,8 @@ const Header = ({ subline }: HeaderProps) => {
   return (
     <>
       <section className="font-outfit pb-[23rem] md:pb-0 overflow-hidden">
-        {" "}
-        {/* Tambahkan overflow-hidden di sini */}
         <div className="md:h-full w-full absolute overflow-hidden">
-          {" "}
-          {/* Tambahkan overflow-hidden di sini */}
           <div className="relative h-[100dvh] md:h-full overflow-hidden">
-            {" "}
-            {/* Tambahkan overflow-hidden di sini */}
             <Image
               alt="hero"
               src="/images/DSC07958.JPG"
@@ -59,8 +53,6 @@ const Header = ({ subline }: HeaderProps) => {
           </div>
 
           <div className="w-full md:h-full hidden md:block overflow-hidden">
-            {" "}
-            {/* Tambahkan overflow-hidden di sini */}
             <Image
               src="/images/foto ABA.png"
               alt="person"
